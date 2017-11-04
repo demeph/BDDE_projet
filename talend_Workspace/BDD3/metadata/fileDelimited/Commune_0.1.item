@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_LtOcwMFkEeeJPNaulOAu1Q" name="Commune" dataPackage="_LtOcwcFkEeeJPNaulOAu1Q" Server="Localhost 127.0.0.1" FilePath="C:/Users/Demna/Documents/GitHub/BDDE_projet/data/correspondance-code-insee-code-postal.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_LtOcwcFkEeeJPNaulOAu1Q" name="default" dataManager="_LtOcwMFkEeeJPNaulOAu1Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_LtOcwsFkEeeJPNaulOAu1Q" id="_FoGRkMFkEeeJPNaulOAu1Q" label="CommuneFrance">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LtOcw8FkEeeJPNaulOAu1Q" label="Code_INSEE" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LtOcxMFkEeeJPNaulOAu1Q" label="Code_Postal" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LtOcxcFkEeeJPNaulOAu1Q" label="Commune" length="22" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LtOcxsFkEeeJPNaulOAu1Q" label="Departement" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LtOcx8FkEeeJPNaulOAu1Q" label="Region" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LtOcyMFkEeeJPNaulOAu1Q" label="Statut" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LtOcycFkEeeJPNaulOAu1Q" label="Altitude_Moyenne" length="6" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LtOcysFkEeeJPNaulOAu1Q" label="Superficie" length="8" precision="5" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LtOcy8FkEeeJPNaulOAu1Q" label="Population" length="4" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LtOczMFkEeeJPNaulOAu1Q" label="geo_point_2d" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LtOczcFkEeeJPNaulOAu1Q" label="geo_shape" length="8399" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LtOczsFkEeeJPNaulOAu1Q" label="ID_Geofla" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LtOcz8FkEeeJPNaulOAu1Q" label="Code_Commune" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LtOc0MFkEeeJPNaulOAu1Q" label="Code_Canton" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LtOc0cFkEeeJPNaulOAu1Q" label="Code_Arrondissement" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LtOc0sFkEeeJPNaulOAu1Q" label="Code_Departement" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LtOc08FkEeeJPNaulOAu1Q" label="Code_Region" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,23 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_1=>" expression="Mathematical.INT(StringHandling.LEFT(row1.CLASSEMENT,1))">
+  <variables name="row1.DATE_DE_CLASSEMENT" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row1.DATE_DE_PUBLICATION_DE_L_ETABLISSEMENT" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row1.TYPOLOGIE_A_TABLISSEMENT" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.CLASSEMENT" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.CATEGORIE" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.MENTION__villages_de_vacances_" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.NOM_COMMERCIAL" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.ADRESSE" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.CODE_POSTAL" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.COMMUNE" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.TA_LA_PHONE" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.COURRIEL" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.SITE_INTERNET" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.TYPE_DE_SA_JOUR" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row1.CAPACITA__D_ACCUEIL__PERSONNES_" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.NOMBRE_DE_CHAMBRES" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.NOMBRE_D_EMPLACEMENTS" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.NOMBRE_D_UNITES_D_HABITATION___rA_sidences_de_tourisme_" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.NOMBRE_D_UNITES_D_HABITATION__villages_de_vacances_" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row1.NOMBRE_DE_LOGEMENTS" value="null" talendType="id_Integer" nullable="true"/>
+</expression:EMFExpression>

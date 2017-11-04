@@ -401,7 +401,7 @@ DATE DE CLASSEMENT;DATE DE PUBLICATION DE L'ETABLISSEMENT;TYPOLOGIE ETABLISSEMEN
 2012-09-10;2012-09-10;HÔTEL;3 étoiles;-;;HÔTEL CÔTÉ VENTOUX;148 avenue des garrigues;84210;SAINT-DIDIER;0490660701;coteventoux.reservation@yahoo.fr;www.coteventoux.com;;247;38;;;;;44.018881, 5.109625
 2017-08-06;2017-08-06;CAMPING;4 étoiles;Tourisme;;CAMPING DES GROTTES;Domaine de la Hille;09400;ALLIAT;0561058821;comptasarllesgrottes@orange.fr;http://www.campingdesgrottes.com;;;;180;;;;42.815534, 1.589173
 2017-06-27;2017-06-27;CAMPING;3 étoiles;Tourisme;;CAMPING LA PINÈDE;ROUTE DE SAINT PIERRE;04800;GRÉOUX-LES-BAINS;0492780547;lapinede@wanadoo.fr;www.camping-lapinede-04.com;;;;160;;;;43.748769, 5.881934
-2016-05-24;2016-05-24;CAMPING;Aire naturelle;-;;AIRE NATURELLE LE CLOS VERT;Village de l'Église;50190;SAINT-MARTIN-D'AUBIGNY;0233077392;mairie-st-martin-daubigny@wanadoo.fr;-;;;;9;;;;49.165926, -1.350283
+2016-05-24;2016-05-24;CAMPING;0 etoiles;-;;AIRE NATURELLE LE CLOS VERT;Village de l'Église;50190;SAINT-MARTIN-D'AUBIGNY;0233077392;mairie-st-martin-daubigny@wanadoo.fr;-;;;;9;;;;49.165926, -1.350283
 2012-09-26;2012-09-26;CAMPING;3 étoiles;Tourisme;;CAMPING LE BOSQUET;avenue des anneaux du roussillon;66140;CANET-EN-ROUSSILLON;0468802380;campinglebosquet@club-internet.fr;www.campinglebosquet.com;;;;110;;;;42.697718, 3.032392
 2015-01-10;2015-01-10;CAMPING;1 étoile;Tourisme;;CAMPING DE L'AUBE;264 chemin de l'aube hameau de Saint Estève;84570;BLAUVAC;04 90 61 99 98;campingdelaube@gmail.com;http://www.campingdelaube.com/;;;;15;;;;44.040051, 5.218239
 2017-06-09;2017-06-09;CAMPING;4 étoiles;Tourisme;;CAMPING L’ÉCUREUIL;41 ROUTE DE L'ILOT;17570;SAINT-AUGUSTIN;0546391446;contact@eldapi.fr;http://www.eldapi-vacances.fr/camping-l-ecureuil;;;;105;;;;45.688555, -1.122381
@@ -482,7 +482,7 @@ DATE DE CLASSEMENT;DATE DE PUBLICATION DE L'ETABLISSEMENT;TYPOLOGIE ETABLISSEMEN
 2016-06-06;2016-06-06;CAMPING;5 étoiles;Tourisme;;CAMPING PARC DE FIERBOIS;PARC DE FIERBOIS;37800;SAINTE-CATHERINE-DE-FIERBOIS;0247654335;rdelussac@fierbois.com;http://www.fierbois.com/fr/;;;;394;;;;47.150646, 0.64903
 2013-07-03;2013-07-03;CAMPING;2 étoiles;Tourisme;;CAMPING MUNICIPAL LA GARENNE;Le Bout du Plan;05200;CROTS;0492431193;contact@lagarenne-crots.com;www.lagarenne-crots.com;;;;199;;;;44.537829, 6.455712
 2017-06-26;2017-06-26;CAMPING;3 étoiles;Tourisme;;CAMPING LES CASCADES;lauzel;24250;SAINT-CYBRANET;0553283226;les-cascades@wanadoo.fr;lescascadesdordogne.com;;;;104;;;;44.778977, 1.180986
-2016-03-08;2016-03-08;CAMPING;Aire naturelle;-;;AIRE NATURELLE LAOUBA;2 chemin laouba;33930;VENDAYS-MONTALIVET;0685331161;jean-paul33@live.fr;www.vacancesmontalivet.com;;;;28;;;;45.343919, -1.068453
+2016-03-08;2016-03-08;CAMPING;0 etoiles;-;;AIRE NATURELLE LAOUBA;2 chemin laouba;33930;VENDAYS-MONTALIVET;0685331161;jean-paul33@live.fr;www.vacancesmontalivet.com;;;;28;;;;45.343919, -1.068453
 2012-12-27;2012-12-27;CAMPING;1 étoile;Tourisme;;CAMPING DU FOSSAT;lailleres;09130;LE FOSSAT;0678611948;campinglefossat@hotmail.fr;camping-le-fossat.fr;;;;15;;;;43.174547, 1.408619
 2015-09-15;2015-09-15;CAMPING;3 étoiles;Tourisme;;CAMPING DE LA BONNE AVENTURE;route de la cunaille;41100;THORÉ-LA-ROCHETTE;0254720059;campingthore@orange.fr;www.camping-la-bonne-aventure.fr;;;;60;;;;47.802105, 0.957179
 2012-05-11;2012-05-11;CAMPING;1 étoile;Loisirs;;CAMPING DE L'ESCAUT;12 rue de l'église;59266;HONNECOURT-SUR-ESCAUT;0327743222;camping.delescaut@orange.fr;http://www.campingdelescaut.fr;;;;100;;;;50.038569, 3.200163
@@ -734,7 +734,7 @@ DATE DE CLASSEMENT;DATE DE PUBLICATION DE L'ETABLISSEMENT;TYPOLOGIE ETABLISSEMEN
 2016-05-24;2016-05-24;CAMPING;5 étoiles;Tourisme;;CAMPING LA ROUBINE;Route de Ruoms;07150;VALLON-PONT-D'ARC;0475880456;roubine.ardeche@wanadoo.fr;http://camping-roubine.com;;;;135;;;;44.421823, 4.3682
 2016-11-07;2016-11-07;CAMPING;3 étoiles;Tourisme;;CAMPING LA CASCADE;Salvinsac;48150;MEYRUEIS;0466454545;contact@camping-la-cascade.com;http://www.camping-la-cascade.com;;;;54;;;;44.196586, 3.457976
 2012-10-22;2012-10-22;CAMPING;3 étoiles;Tourisme;;CAMPING SUNELIA COL D'IBARDIN;220 route d'olhette;64122;URRUGNE;0559543121;info@col-ibardin.com;www.col-ibardin.com;;;;203;;;;43.333944, -1.685661
-2017-07-09;2017-07-09;CAMPING;Aire naturelle;-;;AIRE NATURELLE CAMPING LA CLAIRIÈRE;La Clairière Montlaur;09000;L'HERM;0561016512;camping.laclairiere@aliceadsl.fr;www.campinglaclairiere.fr;;;;20;;;;
+2017-07-09;2017-07-09;CAMPING;0 etoiles;-;;AIRE NATURELLE CAMPING LA CLAIRIÈRE;La Clairière Montlaur;09000;L'HERM;0561016512;camping.laclairiere@aliceadsl.fr;www.campinglaclairiere.fr;;;;20;;;;
 2016-10-06;2016-10-06;CAMPING;4 étoiles;Tourisme;;DOMAINE DE LA MALISSONNE;1845 chemin departemental 66;83740;LA CADIÈRE-D'AZUR;0494901060;malissonne@franceloc.fr;https://www.franceloc.fr/camping-france-provence_alpes_cote_d_azur-malissonne-FR.html;;;;224;;;;43.210712, 5.749053
 2016-09-22;2016-09-22;CAMPING;3 étoiles;Tourisme;;CAMPING LA VALLÉE DE POUPET;POUPET;85590;SAINT-MALÔ-DU-BOIS;0251923145;camping@valleedepoupet.com;http://www.valleedepoupet.com;;;;112;;;;46.922837, -0.874109
 2014-07-17;2014-07-17;CAMPING;4 étoiles;Tourisme;;CAMPING LE NID D’ÉTÉ;2 rue de la vigne verte;85340;OLONNE-SUR-MER;0251953438;info@leniddete.com;http://www.leniddete.com;;;;150;;;;46.533551, -1.789766
@@ -838,7 +838,7 @@ DATE DE CLASSEMENT;DATE DE PUBLICATION DE L'ETABLISSEMENT;TYPOLOGIE ETABLISSEMEN
 2013-06-08;2013-06-08;CAMPING;2 étoiles;Tourisme;;CAMPING LA GRAVIÈRE;La Gravière;03270;SAINT-YORRE;0470592100;mairie@ville-saint-yorre.fr;http://www.ville-saint-yorre.fr/;;;;82;;;;46.058945, 3.460096
 2016-06-17;2016-06-17;CAMPING;4 étoiles;Tourisme;;DOMAINE AN TREST;1 chemin du Treste;56370;SARZEAU;0297417960;an.trest@franceloc.fr;http://www.campingletreste.com/;;;;257;;;;47.505937, -2.771755
 2013-09-16;2013-09-16;CAMPING;1 étoile;Tourisme;;CAMPING MUNICIPAL DE KERVIAN;RUE DE LA MAIRIE;29570;ROSCANVEL;0298274851;mairie@roscanvel.fr;http://www.roscanvel.fr;;;;45;;;;48.315486, -4.547104
-2016-10-05;2016-10-05;CAMPING;Aire naturelle;-;;AIRE NATURELLE KERALUIC;Lieu-dit Keraluic;29120;PLOMEUR;0298821022;camping@keraluic.fr;http://www.keraluic.fr/fr/camping.htm;;;;24;;;;47.80964, -4.299939
+2016-10-05;2016-10-05;CAMPING;0 etoiles;-;;AIRE NATURELLE KERALUIC;Lieu-dit Keraluic;29120;PLOMEUR;0298821022;camping@keraluic.fr;http://www.keraluic.fr/fr/camping.htm;;;;24;;;;47.80964, -4.299939
 2017-12-09;2017-12-09;CAMPING;2 étoiles;Tourisme;;CAMPING MUNICIPAL DE CAROLE;Route Osse en Aspe;64490;BEDOUS;0559347045;commune.bedous@wanadoo.fr;-;;;;46;;;;42.995704, -0.613683
 2017-08-28;2017-08-28;CAMPING;2 étoiles;Tourisme;;CAMPING LA PRAIRIE;18 rue de savoie;74500;CHAMPANGES;0450810802;sylvie.bochaton548@orange.fr;http://www.vacances-camping-lac-leman.fr;;;;57;;;;46.370569, 6.551247
 2012-06-11;2012-06-11;CAMPING;2 étoiles;Loisirs;;CAMPING LE RELAIS DE LA PALME;129 rue droite;62370;NORTKERQUE;0677145708;camping-nortkerque@sfr.fr;http://www.campingdenortkerque.fr;;;;80;;;;50.891006, 2.0335
@@ -872,7 +872,7 @@ DATE DE CLASSEMENT;DATE DE PUBLICATION DE L'ETABLISSEMENT;TYPOLOGIE ETABLISSEMEN
 2013-07-29;2013-07-29;CAMPING;5 étoiles;Tourisme;;DOMAINE DE LA PAILLE BASSE;LA PAILLE BASSE;46200;SOUILLAC;0565378548;info@lapaillebasse.com;http://www.lapaillebasse.com;;;;288;;;;44.946129, 1.440398
 2016-08-22;2016-08-22;CAMPING;4 étoiles;Tourisme;;CAMPING DOMAINE DE CHALAIN;domaine de chalain;39130;FONTENU;0384257878;chalain@chalain.com;http://www.chalain.com;;;;716;;;;46.665309, 5.812899
 2012-10-19;2012-10-19;CAMPING;2 étoiles;Tourisme;;CAMPING DES CHALETS DE MOULIÈRE;rue des Ardentes;86210;VOUNEUIL-SUR-VIENNE;0549858440;villagevacances@fol86.org;-;;;;18;;;;46.720203, 0.543756
-2016-12-21;2016-12-21;CAMPING;Aire naturelle;-;;FERME LANDRAN;Route de Lambarre;64130;ORDIARP;0559281955;landran@wanadoo.fr;www.ferme-landran-location.com;;;;25;;;;43.196273, -0.93068
+2016-12-21;2016-12-21;CAMPING;0 etoiles;-;;FERME LANDRAN;Route de Lambarre;64130;ORDIARP;0559281955;landran@wanadoo.fr;www.ferme-landran-location.com;;;;25;;;;43.196273, -0.93068
 2017-10-08;2017-10-08;CAMPING;3 étoiles;Tourisme;;CAMPING MUNICIPAL DE L’ÉTANG PHILIPPE;Lieu-Dit Mazières;63390;SAINT-GERVAIS-D'AUVERGNE;0473857484;campingstgervais@wanadoo.fr;http://www.camping-loisir.com/;;;;130;;;;46.040869, 2.818712
 2017-05-29;2017-05-29;CAMPING;3 étoiles;Tourisme;;CAMPING LA VERTONNE;La petite Jariette 575 Route de Poirouxet;85440;GROSBREUIL;0251226574;camping.lavertonne@orange.fr;http://www.camping-la-vertonne.com;;;;84;;;;46.538891, -1.602292
 2017-06-09;2017-06-09;CAMPING;2 étoiles;Tourisme;;CAMPING LE VIEUX MOULIN;rue Maurice Samson;85360;LA TRANCHE-SUR-MER;0251289348;accueil@campinglevieuxmoulin.fr;www.campinglevieuxmoulin.fr;;;;148;;;;46.3434, -1.440311
@@ -1093,7 +1093,7 @@ DATE DE CLASSEMENT;DATE DE PUBLICATION DE L'ETABLISSEMENT;TYPOLOGIE ETABLISSEMEN
 2017-07-20;2017-07-20;CAMPING;4 étoiles;Tourisme;;CAMPING LE PANORAMIQUE;le Pessy;63150;MURAT-LE-QUAIRE;0473811879;info@campingpanoramique.fr;www.campingpanoramique.fr;;;;110;;;;45.595777, 2.746925
 2016-11-14;2016-11-14;CAMPING;3 étoiles;Tourisme;;CAMPING TY-COET;38 RUE DU BOIS;56450;SURZUR;0297420905;contact@camping-tycoet.com;http://www.camping-tycoet.com;;;;109;;;;47.589757, -2.620708
 2013-05-06;2013-05-06;CAMPING;1 étoile;Loisirs;;CAMPING DES FORGES;HAMEAU DES FORGES;76170;SAINT-ANTOINE-LA-FORÊT;0607440308;mondeamical@hotmail.fr;-;;;;45;;;;49.53037, 0.499324
-2016-05-08;2016-05-08;CAMPING;Aire naturelle;-;;CAMPING À LA FERME OSPITALIA;maison ospitalia;64640;HÉLETTE;0559379879;j.mongabure@orange.fr;-;;;;22;;;;
+2016-05-08;2016-05-08;CAMPING;0 etoiles;-;;CAMPING À LA FERME OSPITALIA;maison ospitalia;64640;HÉLETTE;0559379879;j.mongabure@orange.fr;-;;;;22;;;;
 2017-08-06;2017-08-06;CAMPING;4 étoiles;Tourisme;;CAMPING LA PRESQU'ÎLE;quartier pin rolland;83430;SAINT-MANDRIER-SUR-MER;0494307470;philippemolinari@homair.com;https://www.homair.com/camping/la-presquile;;;;125;;;;43.074114, 5.91115
 2017-01-06;2017-01-06;CAMPING;3 étoiles;Tourisme;;CAMPING MUNICIPAL LES ÎLES;20 rue de l’écluse;88130;CHARMES;0329660186;tourisme@mairie-charmes.fr;http://www.tourisme-charmes.fr/camping.htm;;;;67;;;;48.376827, 6.286773
 2017-06-26;2017-06-26;CAMPING;3 étoiles;Loisirs;;CAMPING LA FERMETTE DE LA MER;11 avenue des pins;80120;QUEND;03.22.23.40.41;dune-fleurie@capfun.com;http://www.campinglafermettedelamer.eu/;;;;110;;;;50.318075, 1.582771
@@ -1313,7 +1313,7 @@ DATE DE CLASSEMENT;DATE DE PUBLICATION DE L'ETABLISSEMENT;TYPOLOGIE ETABLISSEMEN
 2017-07-25;2017-07-25;CAMPING;2 étoiles;Tourisme;;CAMPING DES JONCS;route du Polygone;56680;GÂVRES;0297824688;campinglesjoncs.gavres@orange.fr;www.campingdesjoncs.fr;;;;120;;;;47.697851, -3.350773
 2015-09-24;2015-09-24;CAMPING;3 étoiles;Loisirs;;CAMPING LE PONTIS;Lieu-Dit le Pontis;24320;VERTEILLAC;0553903774;camping-le-pontis@orange.fr;www.camping-le-pontis.com;;;;59;;;;45.353793, 0.371982
 2012-05-10;2012-05-10;CAMPING;2 étoiles;Tourisme;;CAMPING MUNICIPAL LA SAUCILLE;La Saucille Quartier Menet;40250;MUGRON;0558977126;mairiemugron@wanadoo.fr;-;;;;33;;;;43.76023, -0.747486
-2016-09-26;2016-09-26;CAMPING;Aire naturelle;-;;VALENTHÈZE;LIEUDIT LAGRAVE;46700;MONTCABRIER;0565360357;info@valentheze.fr;www.valentheze.fr;;;;25;;;;44.559987, 1.104399
+2016-09-26;2016-09-26;CAMPING;0 etoiles;-;;VALENTHÈZE;LIEUDIT LAGRAVE;46700;MONTCABRIER;0565360357;info@valentheze.fr;www.valentheze.fr;;;;25;;;;44.559987, 1.104399
 2013-07-24;2013-07-24;CAMPING;3 étoiles;Tourisme;;CAMPING MUNICIPAL DU MAZET SAINT VOY;surnette;43520;LE MAZET-SAINT-VOY;0471650569;commune-de-mazet-st-voy@orange.fr;http://www.mazet-st-voy.com/hebergement.html;;;;62;;;;45.054542, 4.253487
 2012-10-17;2012-10-17;CAMPING;4 étoiles;Tourisme;;CAMPING DE PUJOL;Avenue de la RETIRADA;66700;ARGELÈS-SUR-MER;0468810025;PASSER-PAR-LE-SITE-INTERNET@campingdepujol.com;www.campingdepujol.com;;;;307;;;;42.557233, 3.028872
 2017-07-18;2017-07-18;CAMPING;3 étoiles;Tourisme;;CAMPING LE MOULIN DE JULIEN;moulin de julien;81170;LIVERS-CAZELLES;0563561110;contact@campingmoulindejulien.com;http://www.campingmoulindejulien.com;;;;84;;;;44.057701, 1.967897
@@ -2141,7 +2141,7 @@ DATE DE CLASSEMENT;DATE DE PUBLICATION DE L'ETABLISSEMENT;TYPOLOGIE ETABLISSEMEN
 2017-07-17;2017-07-17;CAMPING;2 étoiles;Tourisme;;CAMPING AU PRÉ DE L’ÉTANG;L'Elemière;85150;SAINTE-FOY;0251208065;camping.aupredeletang@gmail.com;www.camping-aupredeletang.com;;;;36;;;;46.544546, -1.691859
 2017-07-20;2017-07-20;CAMPING;2 étoiles;Loisirs;;CAMPING LA GARENNE;60 rue de la garenne;17570;LES MATHES;0625814574;josselintramble@gmail.com;http://www.campinglagarenne17.fr;;;;27;;;;45.714926, -1.14644
 2013-05-09;2013-05-09;CAMPING;2 étoiles;Tourisme;;CAMPING LA BONNE SOURCE;Le Moulin de Gany;19210;SAINT-MARTIN-SEPERT;0972358429;paul@labonnesource.fr;www.labonnesource.nl;;;;99;;;;45.407383, 1.485615
-2017-06-30;2017-06-30;CAMPING;Aire naturelle;-;;AIRE NATURELLE DE CAMPING LA TEOULEYRE;468 chemin de Jean de Paul;40170;SAINT-JULIEN-EN-BORN;0558427780;info@lateouleyre.com;www.lateouleyre.com;;;;30;;;;44.07322, -1.239091
+2017-06-30;2017-06-30;CAMPING;0 etoiles;-;;AIRE NATURELLE DE CAMPING LA TEOULEYRE;468 chemin de Jean de Paul;40170;SAINT-JULIEN-EN-BORN;0558427780;info@lateouleyre.com;www.lateouleyre.com;;;;30;;;;44.07322, -1.239091
 2012-08-10;2012-08-10;CAMPING;2 étoiles;Tourisme;;CAMPING DU PHARE;Boulevard Charles V;14600;HONFLEUR;0231891026;vival-cabourg@wanadoo.fr;http://www.campings-plage.fr;;;;100;;;;49.423339, 0.231099
 2017-05-31;2017-05-31;CAMPING;3 étoiles;Tourisme;;CAMPING LES EYCHECADOUS;route du camping;09130;ARTIGAT;0567445165;campingartigat@hotmail.fr;campingartigat.com;;;;39;;;;43.137472, 1.440051
 2013-07-24;2013-07-24;CAMPING;2 étoiles;Tourisme;;LE GRAVELOTTE;Le Village;05320;LA GRAVE;0476799314;minoroland@neuf.fr;www.camping-le-gravelotte.com;;;;50;;;;45.050642, 6.297002
@@ -2530,7 +2530,7 @@ DATE DE CLASSEMENT;DATE DE PUBLICATION DE L'ETABLISSEMENT;TYPOLOGIE ETABLISSEMEN
 2017-10-07;2017-10-07;CAMPING;3 étoiles;Tourisme;;CAMPING MUNICIPAL LA SINOPE;10 RUE DU PORT SINOPE;50310;QUINÉVILLE;0233210738;mairie.quineville@wanadoo.fr;http://www.camping-quineville.fr;;;;83;;;;49.517122, -1.289622
 2017-04-19;2017-04-19;CAMPING;3 étoiles;Tourisme;;CAMPING LE VERCORS;115 Rue de la Croze les gaillards;38880;AUTRANS;0476953188;contact@camping-du-vercors.fr;www.camping-du-vercors.fr;;;;59;;;;45.170455, 5.538599
 2017-07-18;2017-07-18;CAMPING;4 étoiles;Loisirs;;CAMPING LES ROCHELETS;chemin des grandes rivières;44250;SAINT-BREVIN-LES-PINS;0240274025;info@rochelets.com;http://www.rochelets.com;;;;230;;;;47.2144, -2.153995
-2016-11-10;2016-11-10;CAMPING;Aire naturelle;-;;CAMPING DE SAINT VAURY;La Valette;23320;SAINT-VAURY;0555802017;sercretariat.mairie@saint-vaury.fr;-;;;;14;;;;46.217656, 1.760138
+2016-11-10;2016-11-10;CAMPING;0 etoiles;-;;CAMPING DE SAINT VAURY;La Valette;23320;SAINT-VAURY;0555802017;sercretariat.mairie@saint-vaury.fr;-;;;;14;;;;46.217656, 1.760138
 2016-12-07;2016-12-07;CAMPING;4 étoiles;Loisirs;;CAMPING LA PRAIRIE;91 CHEMIN DES ROSELIÈRES;85270;SAINT-HILAIRE-DE-RIEZ;0251540856;campinglaprairie@campingscollinet.com;http://www.campingscollinet.com/campinglaprairie/;;;;276;;;;46.744543, -2.004083
 2017-07-31;2017-07-31;CAMPING;4 étoiles;Tourisme;;CAMPING RCN LA BASTIDE EN ARDÈCHE;1 route d'Alès;07120;SAMPZON;0786532071;bastide@rcn.fr;https://www.rcn.nl/fr/camping/france/ardeche/rcn-la-bastide-en-ardeche;;;;300;;;;44.425224, 4.32547
 2017-03-05;2017-03-05;CAMPING;2 étoiles;Tourisme;;CAMPING LES ARAUCARIAS;870 rue du général leclerc;60170;CARLEPONT;0344752739;camping-les-araucarias@wanadoo.fr;http://www.camping-les-araucarias.com;;;;60;;;;49.50693, 3.018618
@@ -2593,7 +2593,7 @@ DATE DE CLASSEMENT;DATE DE PUBLICATION DE L'ETABLISSEMENT;TYPOLOGIE ETABLISSEMEN
 2012-10-15;2012-10-15;CAMPING;3 étoiles;Tourisme;;DOMAINE DU LAC DE CHAMPOS;BP 2;26260;SAINT-DONAT-SUR-L'HERBASSE;0475454598;contact@lacdechampos.com;http://www.lacdechampos.com;;;;98;;;;45.122686, 4.98172
 2017-07-25;2017-07-25;CAMPING;2 étoiles;Loisirs;;CAMPING DU RIVAGE;21 rue du rivage;62910;SERQUES;0321937386;campingdurivage@orange.fr;www.camping-du-rivage.fr/;;;;105;;;;50.805312, 2.216668
 2017-07-21;2017-07-21;CAMPING;2 étoiles;Tourisme;;CAMPING GCU LA FLOTTE EN RE;La Prée;17630;LA FLOTTE;0147639863;laflotte1702@gcuf.fr;-;;;;135;;;;46.17997, -1.292212
-2016-11-15;2016-11-15;CAMPING;Aire naturelle;-;;CAMPING LA LONDAGNE;347 chemin des roches;73520;SAINT-BÉRON;0476311370;campinglalondagne.savoie@gmail.com;-;;;;10;;;;45.508774, 5.739153
+2016-11-15;2016-11-15;CAMPING;0 etoiles;-;;CAMPING LA LONDAGNE;347 chemin des roches;73520;SAINT-BÉRON;0476311370;campinglalondagne.savoie@gmail.com;-;;;;10;;;;45.508774, 5.739153
 2013-05-31;2013-05-31;CAMPING;2 étoiles;Loisirs;;CAMPING LA SAPINIÈRE;59 ROUTE DU COL D'AMIC;68360;WUENHEIM;09.65.57.37.69.03.;campeursmulhouse@orange.fr;-;;;;106;;;;
 2013-03-19;2013-03-19;CAMPING;2 étoiles;Tourisme;;CAMPING MUNICIPAL LA GROSSE MOTTE;9 allée Léo Lagrange;37160;DESCARTES;0672001043;camping.descartes@orange.fr;http://www.ville-descartes.fr/index.php?page=article&id_categorieA=20&id_article=39;;;;54;;;;46.970271, 0.700946
 2017-11-07;2017-11-07;CAMPING;2 étoiles;Tourisme;;CAMPING MUNICIPAL LE CÉLÉ;le bourg;46160;SAINT-SULPICE;0629464822;mairiesaintsulpice46@orange.fr;http://www.tourisme-lot.com/fr/27/3/0/HPA2767CDT460001/sit/detail/hebergements;;;;30;;;;44.569646, 1.791071
@@ -3210,7 +3210,7 @@ DATE DE CLASSEMENT;DATE DE PUBLICATION DE L'ETABLISSEMENT;TYPOLOGIE ETABLISSEMEN
 2016-07-11;2016-11-11;CAMPING;3 étoiles;Tourisme;;CAMPÉOLE L'AVÉNA;route de tizzano;20100;SARTÈNE;0495770218;clugan@andretriganogroupe.com;http://www.campeole.com;;;;185;;;;41.540324, 8.853216
 2017-06-30;2017-06-30;CAMPING;3 étoiles;Loisirs;;CAMPING SO DE PROUS;Larise;65120;SALIGOS;0562928241;jj.poulou@wanadoo.fr;http://sodeprous.com;;;;74;;;;42.896292, -0.027296
 2012-11-15;2012-11-15;CAMPING;3 étoiles;Tourisme;;CAMPING LA RÉSIDENCE DES BOIS;bois de la cuve;14130;LE BRÉVEDENT;0231640929;joelle.sarels@libertysurf.fr;-;;;;110;;;;49.228853, 0.312607
-2014-12-31;2014-12-31;CAMPING;Aire naturelle;-;;AIRE NATURELLE DE BOUVENT;chemin de Curtafray;01000;BOURG-EN-BRESSE;0474451830;bouvent@bourgenbresse.fr;-;;;;2;;;;46.194323, 5.260546
+2014-12-31;2014-12-31;CAMPING;0 etoiles;-;;AIRE NATURELLE DE BOUVENT;chemin de Curtafray;01000;BOURG-EN-BRESSE;0474451830;bouvent@bourgenbresse.fr;-;;;;2;;;;46.194323, 5.260546
 2013-10-30;2013-10-30;CAMPING;2 étoiles;Tourisme;;BASE DE LOISIRS DE SAINT EVROULT NOTRE DAME DU BOIS;le bourg;61550;SAINT-EVROULT-NOTRE-DAME-DU-BOIS;0678330494;catherine-motte@orange.fr;http://www.st-evroult-nd-du-bois.fr/;;;;27;;;;48.790597, 0.460997
 2017-06-27;2017-06-27;CAMPING;3 étoiles;Loisirs;;CAMPING LA MARZELLE;13 chemin de la marzelle à l'oisson;85270;SAINT-HILAIRE-DE-RIEZ;0251543259;camping-lamarzelle@orange.fr;http://www.camping-lamarzelle.com;;;;150;;;;46.740613, -1.92981
 2017-06-16;2017-06-16;CAMPING;2 étoiles;Tourisme;;CAMPING MILLE ÉTOILES;mas de serret;07150;LABASTIDE-DE-VIRAC;0475384277;nadine@campingmilletoiles.com;http://www.campingmilletoiles.com/;;;;33;;;;44.353881, 4.453564
@@ -3262,7 +3262,7 @@ DATE DE CLASSEMENT;DATE DE PUBLICATION DE L'ETABLISSEMENT;TYPOLOGIE ETABLISSEMEN
 2017-04-28;2017-04-28;CAMPING;3 étoiles;Loisirs;;CAMPING DE LA PLAGE;109 AVENUE MICHEL D'ORNANO;14910;BLONVILLE-SUR-MER;0231879246;contact@campingblonville.com;www.campingblonville.com;;;;376;;;;49.335419, 0.02085
 2012-09-24;2012-09-24;CAMPING;2 étoiles;Tourisme;;CAMPING LE POTEAU;48 rue René Guy Cadou;44760;LA BERNERIE-EN-RETZ;0979716906;camping-lepoteau@gmx.fr;http://www.camping-lepoteau.com;;;;100;;;;47.086921, -2.028513
 2016-11-23;2016-11-23;CAMPING;3 étoiles;Tourisme;;CAMPING OMAHA BEACH;RUE DE LA HERODE;14710;VIERVILLE-SUR-MER;0231224173;omaha.beach@yahoo.fr;http://camping-omaha-beach.fr;;;;322;;;;49.376586, -0.908452
-2016-05-08;2016-08-26;CAMPING;Aire naturelle;-;;CAMPING LE SOLEIL;Bar camping le soleil Tattone;20219;VIVARIO;0495472116;camping-lesoleil@orange.fr;www.camping-lesoleil.com;;;;25;;;;42.152309, 9.152605
+2016-05-08;2016-08-26;CAMPING;0 etoiles;-;;CAMPING LE SOLEIL;Bar camping le soleil Tattone;20219;VIVARIO;0495472116;camping-lesoleil@orange.fr;www.camping-lesoleil.com;;;;25;;;;42.152309, 9.152605
 2013-03-06;2013-03-06;CAMPING;3 étoiles;Tourisme;;CAMPING DES CAPUCINES;RUE DE LA CÔTE FLEURIE;14860;RANVILLE;0231786982;campingdescapucines.14@orange.fr;-;;;;212;;;;49.238522, -0.256556
 2013-10-30;2013-10-30;CAMPING;2 étoiles;Loisirs;;CAMPING DU CAFÉ DU LAC;278 avenue du lac;62610;ARDRES;0321354068;dedefr62@orange.fr;-;;;;34;;;;50.859382, 1.974376
 2014-12-16;2014-12-16;CAMPING;4 étoiles;Tourisme;;DOMAINE LES PINÈDES DU LUBERON;Avenue Pierre Augier;84120;PERTUIS;0490791098;pinedes-luberon@franceloc.fr;http://www.campings-franceloc.fr/accueil-camping-pinedes_du_luberon-FR.html;;;;220;;;;43.69134, 5.516391
@@ -3510,7 +3510,7 @@ DATE DE CLASSEMENT;DATE DE PUBLICATION DE L'ETABLISSEMENT;TYPOLOGIE ETABLISSEMEN
 2017-06-22;2017-06-22;CAMPING;3 étoiles;Tourisme;;CAMPING MOULIN DE PIOT;Moulin de Piot;23220;CHENIERS;0555628090;moulin-de-piot@orange.fr;http://www.moulindepiot.com;;;;81;;;;46.346283, 1.838502
 2012-10-17;2012-10-17;CAMPING;3 étoiles;Tourisme;;CAMPING LES EYMES;Les Eymes;38112;MÉAUDRE;0476952485;contact@camping-les-eymes.com;http://www.camping-les-eymes.com/;;;;46;;;;45.14517, 5.517371
 2016-09-28;2016-09-28;CAMPING;3 étoiles;Tourisme;;CAMPING L'ÎLE AUX LOISIRS;102 route saint savinien;17350;LE MUNG;0546903511;contact@ileauxloisirs.com;http://www.ileauxloisirs.com;;;;82;;;;45.877698, -0.684015
-2014-12-31;2014-12-31;CAMPING;Aire naturelle;-;;AIRE NATURELLE DE CAMPING LES RIVES DU LAC;ferme de rieumontagné;81320;NAGES;0563374576;vacances@lesrivesdulacc.com;www.lesrivesdulac.com;;;;10;;;;43.649933, 2.775247
+2014-12-31;2014-12-31;CAMPING;0 etoiles;-;;AIRE NATURELLE DE CAMPING LES RIVES DU LAC;ferme de rieumontagné;81320;NAGES;0563374576;vacances@lesrivesdulacc.com;www.lesrivesdulac.com;;;;10;;;;43.649933, 2.775247
 2012-11-16;2012-11-16;CAMPING;3 étoiles;Tourisme;;CAMPING PYRÉNÉES NATURE;Chemin de Lagravette;64400;OLORON-SAINTE-MARIE;0559391126;camping-du-stade@wanadoo.fr;http://www.camping-du-stade.com/index.php;;;;110;;;;43.180109, -0.621368
 2017-06-30;2017-06-30;CAMPING;3 étoiles;Tourisme;;CAMPING LA PINDIÈRE;LIEU DIT LA DENAIS;44810;HÉRIC;0240576541;contact@camping-la-pindiere.com;http://www.camping-la-pindiere.com;;;;95;;;;47.413914, -1.670421
 2012-05-11;2012-05-11;CAMPING;3 étoiles;Loisirs;;CAMPING LE ROC DE L'HERVIEU;19 rue d'estienne d'orves;22590;PORDIC;0296793012;le.roc.de.lhervieu@wanadoo.fr;www.campinglerocdelhervieu.fr;;;;163;;;;48.578643, -2.785063
@@ -4564,7 +4564,7 @@ DATE DE CLASSEMENT;DATE DE PUBLICATION DE L'ETABLISSEMENT;TYPOLOGIE ETABLISSEMEN
 2017-01-06;2017-01-06;CAMPING;3 étoiles;Tourisme;;CAMPING LES BAUMELLES;1 route de la madrague;83270;SAINT-CYR-SUR-MER;0494262127;baumellesloisirs@aol.com;http://campinglesbaumelles.fr;;;;340;;;;43.171579, 5.700289
 2013-05-31;2013-05-31;CAMPING;3 étoiles;Loisirs;;CAMPING LA COLETTERIE;rue de Tivoli;44360;SAINT-ÉTIENNE-DE-MONTLUC;0240869744;aucun@courriel.fr;http://www.st-etienne-montluc.net/;;;;54;;;;47.279371, -1.779835
 2016-11-15;2016-11-15;CAMPING;3 étoiles;Tourisme;;CAMPING ILE D'OR;194 Boulevard Alsace Lorraine;83400;HYÈRES;0494582055;remy.coulomb@wanadoo.fr;http://www.camping-iles-d-or.com;;;;150;;;;43.039514, 6.14743
-2017-08-28;2017-08-28;CAMPING;Aire naturelle;-;;AIRE NATURELLE DIRIART;Départementale 22;64780;SUHESCUN;0559376961;dominique.diriart0614@orange.fr;campingalafermepaysbasque.com;;;;25;;;;43.232057, -1.210363
+2017-08-28;2017-08-28;CAMPING;0 etoiles;-;;AIRE NATURELLE DIRIART;Départementale 22;64780;SUHESCUN;0559376961;dominique.diriart0614@orange.fr;campingalafermepaysbasque.com;;;;25;;;;43.232057, -1.210363
 2017-05-19;2017-05-19;CAMPING;3 étoiles;Loisirs;;CAMPING DOMAINE LES BELLES;ROUTE DE MARSEILLAN;34510;FLORENSAC;0467771395;domainelesbelles2@orange.fr;-;;;;65;;;;43.36992, 3.498657
 2016-02-06;2016-02-06;CAMPING;4 étoiles;Tourisme;;DOMAINE DES FUMADES;DOMAINE DES FUMADES;30500;ALLÈGRE-LES-FUMADES;0466248078;fumades@franceloc.fr;https://www.franceloc.fr/camping-france-languedoc_roussillon-fumades-FR.html?referer=23245;;;;253;;;;44.186985, 4.227136
 2016-12-21;2016-12-21;CAMPING;3 étoiles;Tourisme;;CAMPING INTERNATIONAL DU ROUSSILLON;Route Départementale 900 Planal de salses;66600;SALSES-LE-CHÂTEAU;0468386072;camping-roussillon@wanadoo.fr;www.camping-roussillon.com;;;;94;;;;42.815236, 2.916784
@@ -4814,7 +4814,7 @@ DATE DE CLASSEMENT;DATE DE PUBLICATION DE L'ETABLISSEMENT;TYPOLOGIE ETABLISSEMEN
 2013-01-07;2013-01-07;CAMPING;2 étoiles;Tourisme;;CAMPING MUNICIPAL DE CELLETTES;rue du Conon;41120;CELLETTES;0254704754;police@cellettes41.fr;http://www.cellettes41.fr/;;;;40;;;;47.524848, 1.387627
 2017-04-05;2017-04-05;CAMPING;3 étoiles;Tourisme;;CAMPING DE TOURNUS;14 rue des Canes;71700;TOURNUS;0385511658;camping-tournus@orange.fr;www.camping-tournus.com;;;;90;;;;46.572727, 4.908763
 2013-08-23;2013-08-23;CAMPING;1 étoile;Tourisme;;BASE DE PLEIN AIR;19 rue du plan d'Eau;57480;MALLING;0382501297;commune.malling@wanadoo.fr;www.malling.fr;;;;200;;;;49.426163, 6.300143
-2015-05-06;2015-05-06;CAMPING;Aire naturelle;-;;CAMPING LE MOULIN;quartier le moulin;26340;PRADELLE;0475216996;lemoulin.accueil@orange.fr;www.relaislemoulin.com/;;;;15;;;;44.694775, 5.296515
+2015-05-06;2015-05-06;CAMPING;0 etoiles;-;;CAMPING LE MOULIN;quartier le moulin;26340;PRADELLE;0475216996;lemoulin.accueil@orange.fr;www.relaislemoulin.com/;;;;15;;;;44.694775, 5.296515
 2017-06-13;2017-06-13;CAMPING;3 étoiles;Tourisme;;CAMPING DU VIEUX CHÂTEAU;avenue du Vieux Tharon;44730;SAINT-MICHEL-CHEF-CHEF;0240278347;campingduvieuxchateau@gmail.com;http://www.camping-duvieuxchateau.com;;;;74;;;;47.16117, -2.162514
 2017-07-20;2017-07-20;CAMPING;4 étoiles;Tourisme;;CAMPING CHANTECLER;41 Avenue du Val Saint André;13100;AIX-EN-PROVENCE;0442261298;campingchantecler.aix@gmail.com;www.campingchantecler.com;;;;271;;;;43.514951, 5.475018
 2016-07-13;2016-07-13;CAMPING;3 étoiles;Tourisme;;CAMPING SUN OCÉAN;538 avenue des Sables;85440;TALMONT-SAINT-HILAIRE;0251906124;camping-sunocean@wanadoo.fr;http://www.camping-sunocean.fr;;;;121;;;;46.468917, -1.631535
@@ -5078,7 +5078,7 @@ DATE DE CLASSEMENT;DATE DE PUBLICATION DE L'ETABLISSEMENT;TYPOLOGIE ETABLISSEMEN
 2016-02-11;2016-02-11;CAMPING;2 étoiles;Loisirs;;CAMPING LE PISSOT;18 route de Soullans;85270;SAINT-HILAIRE-DE-RIEZ;0251555576;camping-lepissot@orange.fr;http://www.camping-lepissot.com;;;;95;;;;46.746025, -1.953631
 2012-10-17;2012-10-17;CAMPING;2 étoiles;Loisirs;;CAMPING LE FLEURY;11 rue de bouchain;59111;WAVRECHAIN-SOUS-FAULX;0327357116;camping.fleury@live.fr;www.aventurier.fr/fr/france/nord/59_dec_lefleury/index.shtml;;;;220;;;;50.275026, 3.287749
 2017-06-28;2017-06-28;CAMPING;2 étoiles;Tourisme;;CAMPING MOULIN DE LA GALINIÈRE;CHEMIN DES CONDAMINES;12640;RIVIÈRE-SUR-TARN;0565626560;info@moulindelagaliniere.fr;http://www.moulindelagaliniere.fr;;;;57;;;;44.202375, 3.158705
-2015-01-10;2015-01-10;CAMPING;Aire naturelle;-;;CAMPING DU FORT SAMSON;25 rue du Fort Samson;14450;GRANDCAMP-MAISY;0231223713;aire.nat.camping.fort.sam@orange.fr;-;;;;27;;;;49.385863, -1.055091
+2015-01-10;2015-01-10;CAMPING;0 etoiles;-;;CAMPING DU FORT SAMSON;25 rue du Fort Samson;14450;GRANDCAMP-MAISY;0231223713;aire.nat.camping.fort.sam@orange.fr;-;;;;27;;;;49.385863, -1.055091
 2012-05-11;2012-05-11;CAMPING;2 étoiles;Loisirs;;CAMPING DE LA COLME;45 Bis Route de Watten;59630;LOOBERGHE;0328298559;colmecamping@wanadoo.fr;www.camping-de-la-colme.fr;;;;58;;;;50.916931, 2.267764
 2013-06-08;2013-06-08;CAMPING;3 étoiles;Loisirs;;CAMPING DE LA BAIE;Ker Avelo;44410;ASSÉRAC;0240017116;contact@camping-delabaie.com;www.camping-delabaie.com;;;;130;;;;47.455986, -2.433864
 2016-10-25;2016-10-25;CAMPING;2 étoiles;Tourisme;;CAMPING TERRE D'ENTENTE;Lieu dit de La Croix Rouge;49160;SAINT-MARTIN-DE-LA-PLACE;0972303172;contact@terre-dentente.fr;http://terre-dentente.fr/fr;;;;79;;;;47.314262, -0.137564
@@ -7530,7 +7530,7 @@ DATE DE CLASSEMENT;DATE DE PUBLICATION DE L'ETABLISSEMENT;TYPOLOGIE ETABLISSEMEN
 2012-05-12;2012-05-12;CAMPING;3 étoiles;Tourisme;;CAMPING MUNICIPAL SAINT-POINT-LAC;8 Rue Du Port;25160;SAINT-POINT-LAC;0381696164;camping-saintpointlac@orange.fr;www.camping-saintpointlac.fr;;;;84;;;;46.811601, 6.303489
 2016-10-24;2016-10-24;CAMPING;3 étoiles;Tourisme;;CAMPING DE KERLEVEN;4 route de port la forêt;29940;LA FORÊT-FOUESNANT;0298569883;contact@campingdekerleven.com;http://www.campingdekerleven.com;;;;234;;;;47.89791, -3.968173
 2017-07-18;2017-07-18;CAMPING;3 étoiles;Tourisme;;CAMPING CASTILLON DE PROVENCE;La Grande Terre La Baume;04120;CASTELLANE;0492836424;castillondeprovence@gmail.com;http://www.castillondeprovence.com;;;;150;;;;43.885349, 6.512644
-2017-06-23;2017-06-23;CAMPING;Aire naturelle;-;;AIRE NATURELLE DE CAMPING LES FRAMBOISIERS;Le Villard;73340;BELLECOMBE-EN-BAUGES;0479633633;camping-les-framboisiers@orange.fr;www.camping-les-framboisiers.com;;;;24;;;;45.749888, 6.142494
+2017-06-23;2017-06-23;CAMPING;0 etoiles;-;;AIRE NATURELLE DE CAMPING LES FRAMBOISIERS;Le Villard;73340;BELLECOMBE-EN-BAUGES;0479633633;camping-les-framboisiers@orange.fr;www.camping-les-framboisiers.com;;;;24;;;;45.749888, 6.142494
 2012-05-10;2012-05-10;CAMPING;3 étoiles;Tourisme;;CAMPING VAL DE BOUTONNE;56 quai de bernouët;17400;SAINT-JEAN-D'ANGÉLY;0546322616;info@valba.net;http://www.valba.net;;;;99;;;;45.948826, -0.536642
 2013-08-10;2013-08-10;CAMPING;2 étoiles;Tourisme;;CAMPING LE CHÊNE;Quartier le chêne;05130;TALLARD;0492541331;contact@camping-lechene.com;www.camping-lechene.com;;;;51;;;;44.456223, 6.050004
 2017-04-18;2017-04-18;CAMPING;3 étoiles;Tourisme;;CAMPING LES FLOTS 4;175 route de La Perroche;17310;SAINT-PIERRE-D'OLÉRON;0546753577;contact@camping-les-flots.com;http://www.camping-les-flots.com;;;;115;;;;45.903098, -1.301377
@@ -8687,7 +8687,7 @@ DATE DE CLASSEMENT;DATE DE PUBLICATION DE L'ETABLISSEMENT;TYPOLOGIE ETABLISSEMEN
 2017-11-07;2017-11-07;CAMPING;3 étoiles;Tourisme;;CAMPING SAINT NICOLAS;8 kergouliou port Manech;29920;NÉVEZ;0298068975;furic.d@wanadoo.fr;http://www.campinglesaintnicolas.com;;;;189;;;;47.817955, -3.791036
 2017-05-17;2017-05-17;CAMPING;4 étoiles;Tourisme;;CAMPING TOHAPI LES ALMADIES;La charrière des bandes;85360;LA TRANCHE-SUR-MER;0251303694;diralmadies@tohapi.fr;https://www.tohapi.fr/pays-de-la-loire/camping-les-almadies.php;;;;517;;;;46.371865, -1.415108
 2017-07-20;2017-07-20;CAMPING;3 étoiles;Loisirs;;CAMPING LES CHÊNES VERTS;Route de Pornic;44580;BOURGNEUF-EN-RETZ;0240214816;contact@leschenesverts.info;http://www.leschenesverts.info;;;;150;;;;47.051243, -1.96345
-2016-09-26;2016-09-26;CAMPING;Aire naturelle;-;;CAMPING CAZENAVE DOUX;19 rue Houndaa;64260;CASTET;0559058826;chezjeancazenave@wanadoo.fr;-;;;;17;;;;43.065924, -0.416171
+2016-09-26;2016-09-26;CAMPING;0 etoiles;-;;CAMPING CAZENAVE DOUX;19 rue Houndaa;64260;CASTET;0559058826;chezjeancazenave@wanadoo.fr;-;;;;17;;;;43.065924, -0.416171
 2015-02-11;2015-02-11;CAMPING;3 étoiles;Tourisme;;CAMPING AUX PORTES DES MILLE SOURCES;16 rue des trois ponts;19170;BUGEAT;0555943212;auxportesdesmillesources@orange.fr;www.camping-en-correze.com;;;;80;;;;45.605078, 1.924279
 2015-10-27;2015-10-27;CAMPING;4 étoiles;Tourisme;;CAMPING INDIGO STRASBOURG;9 rue de l'Auberge de jeunesse;67100;STRASBOURG;0388301996;strasbourg@camping-indigo.com;http://www.camping-indigo.com/fr/indigo-strasbourg;;;;181;;;;
 2016-06-30;2016-06-30;CAMPING;2 étoiles;Tourisme;;CAMPING INTERCOMMUNAL DU VAL DE BRAYE;ROUTE DE VIBRAYE;72390;LAVARÉ;0243719644;basedeloisirs-valdebraye@orange.fr;www.basedeloisirs-lavare.fr;;;;16;;;;48.029988, 0.648132
@@ -8982,7 +8982,7 @@ DATE DE CLASSEMENT;DATE DE PUBLICATION DE L'ETABLISSEMENT;TYPOLOGIE ETABLISSEMEN
 2012-05-11;2012-05-11;CAMPING;1 étoile;Tourisme;;CAMPING MUNICIPAL;ROUTE DE LANGEAC;43300;SIAUGUES-SAINTE-MARIE;0610650781;info.siaugues@orange.fr;-;;;;18;;;;45.09297, 3.626538
 2017-06-01;2017-06-01;CAMPING;4 étoiles;Loisirs;;CAMPING LA GARENNE;5 chemin des limites;59122;LES MOËRES;0328268649;contact@residence-lagarenne.fr;http://www.residence-lagarenne.fr/;;;;122;;;;51.051122, 2.548135
 2012-09-24;2012-09-24;CAMPING;2 étoiles;Tourisme;;CAMPING LES PINS;101 AVENUE DES PINS;17310;SAINT-PIERRE-D'OLÉRON;05.46.47.11.32;camping.LES.PINSM.C@wanadoo.fr;www.camping-lespins-oleron.com;;;;50;;;;45.923157, -1.341557
-2016-01-08;2016-01-08;CAMPING;Aire naturelle;-;;AIRE NATURELLE DE CAMPING LOU PK2;190 CHEMIN DE MONTGAILLARD;40200;SAINTE-EULALIE-EN-BORN;0610684515;campingloupk2@orange.fr;http://www.camping-aire-naturelle.fr/;;;;25;;;;44.286281, -1.172475
+2016-01-08;2016-01-08;CAMPING;0 etoiles;-;;AIRE NATURELLE DE CAMPING LOU PK2;190 CHEMIN DE MONTGAILLARD;40200;SAINTE-EULALIE-EN-BORN;0610684515;campingloupk2@orange.fr;http://www.camping-aire-naturelle.fr/;;;;25;;;;44.286281, -1.172475
 2015-11-26;2015-11-26;CAMPING;2 étoiles;Tourisme;;CAMPING LE RETOURTIER;Lieu-Dit le Retourtier;07120;BALAZUC;0475377767;leretourtier@orange.fr;www.camping-leretourtier.com;;;;34;;;;44.507325, 4.381508
 2016-12-07;2016-12-07;CAMPING;4 étoiles;Loisirs;;O2 CAMPING;Lieu Dit La Bretonnière;50290;LONGUEVILLE;0684983374;contact@o2camping.fr;www.o2camping.fr;;;;90;;;;48.863834, -1.527292
 2017-03-05;2017-03-05;CAMPING;2 étoiles;Loisirs;;CAMPING TY BREIZ;15 grande rue Kervoyal;56750;DAMGAN;0297411347;campingtybreiz@orange.fr;http://www.campingtybreiz.com;;;;43;;;;47.520584, -2.57484
@@ -11085,7 +11085,7 @@ DATE DE CLASSEMENT;DATE DE PUBLICATION DE L'ETABLISSEMENT;TYPOLOGIE ETABLISSEMEN
 2014-03-25;2014-03-25;HÔTEL;3 étoiles;-;;HÔTEL NAPOLÉON;9 rue Grande;77300;FONTAINEBLEAU;0160395050;info@naposite.com;www.naposite.com;;114;57;;;;;48.404236, 2.700332
 2016-08-19;2016-08-19;HÔTEL;4 étoiles;-;;HÔTEL NOVOTEL METZ CENTRE;Place des paraiges Centre Saint Jacques;57000;METZ;0387373839;H0589@accor.com;http://www.accorhotels.com/fr/hotel-0589-novotel-metz-centre/index.shtml;;363;120;;;;;49.118151, 6.176743
 2012-05-11;2012-05-11;CAMPING;2 étoiles;Tourisme;;CAMPING DU MOULIN D'AURORE;49 rue de trégunc;29900;CONCARNEAU;0298505308;contact@moulinaurore.com;www.moulinaurore.com;;;;170;;;;47.867432, -3.903735
-2016-08-29;2016-08-29;CAMPING;Aire naturelle;-;;AIRE NATURELLE OCÉ'ÂNE;KÉRAEL LANVEOC;29160;CROZON;0632248619;contact@oceane-crozon.net;www.oceane-crozon.net;;;;11;;;;48.272296, -4.424301
+2016-08-29;2016-08-29;CAMPING;0 etoiles;-;;AIRE NATURELLE OCÉ'ÂNE;KÉRAEL LANVEOC;29160;CROZON;0632248619;contact@oceane-crozon.net;www.oceane-crozon.net;;;;11;;;;48.272296, -4.424301
 2015-06-16;2015-06-16;CAMPING;2 étoiles;Loisirs;;CAMPING DU SOLEIL;2070 ROUTE DE L'ESPIGUETTE;30240;LE GRAU-DU-ROI;0466515007;camping.soleil@free.fr;http://www.camping-soleil.com;;;;330;;;;43.509023, 4.14547
 2012-05-12;2012-05-12;CAMPING;3 étoiles;Tourisme;;CAMPING AUX VALLONS;Quartier les Vallons, route départementale 71;83630;BAUDUEN;0494700913;auxvallons@orange.fr;wwwauxvallons.fr;;;;71;;;;43.730333, 6.164296
 2012-08-10;2012-08-10;CAMPING;3 étoiles;Tourisme;;CAMPING BAIE DE TERENEZ;Moulin de Caneret;29252;PLOUEZOC'H;0298672680;campingbaiedeterenez@wanadoo.fr;http://www.campingbaiedeterenez.com;;;;92;;;;48.660435, -3.852781
@@ -11220,7 +11220,7 @@ DATE DE CLASSEMENT;DATE DE PUBLICATION DE L'ETABLISSEMENT;TYPOLOGIE ETABLISSEMEN
 2012-05-11;2012-05-11;CAMPING;2 étoiles;Tourisme;;CAMPING MUNICIPAL CAMP 'EURE;Quai du maréchal FOCH;27340;PONT-DE-L'ARCHE;0235230671;campeure@orange.fr;-;;;;55;;;;49.305899, 1.154465
 2014-07-15;2014-07-15;CAMPING;2 étoiles;Tourisme;;CAMPING DE CHANTELERMUZE;Lieu-Dit Chantelermuze;07410;SAINT-VICTOR;0475060855;ma-stvic@inforoutes.fr;-;;;;33;;;;45.115987, 4.678003
 2012-05-11;2012-05-11;CAMPING;2 étoiles;Tourisme;;CAMPING DE LA RODE;la rode;48300;ROCLES;0466695018;camping.larode@wanadoo.fr;-;;;;20;;;;44.720514, 3.786848
-2016-08-23;2016-08-23;CAMPING;Aire naturelle;-;;CAMPING LA RECORBAZ;882 ROUTE DES COMBES;74210;SEYTHENEX;0265187844;camping.larecorbaz@free.fr;-;;;;15;;;;45.721511, 6.313309
+2016-08-23;2016-08-23;CAMPING;0 etoiles;-;;CAMPING LA RECORBAZ;882 ROUTE DES COMBES;74210;SEYTHENEX;0265187844;camping.larecorbaz@free.fr;-;;;;15;;;;45.721511, 6.313309
 2017-12-07;2017-12-07;CAMPING;2 étoiles;Tourisme;;CAMPING GCU LUCHON;luchon;31110;SAINT-MAMET;0147639863;luchon3101@gcuf.fr;-;;;;58;;;;42.780888, 0.602241
 2017-07-26;2017-07-26;CAMPING;4 étoiles;Tourisme;;CAMPING LES COLLINES DE CASTELLANE;Route de Grasse;04120;LA GARDE;0492836896;collines@rcn.fr;https://www.rcn.nl/nl/campings/frankrijk/castellane/rcn-les-collines-de-castellane;;;;200;;;;43.828203, 6.559964
 2013-12-04;2013-12-04;CAMPING;2 étoiles;Tourisme;;CAMPING MUNICIPAL DE LA PRÉE;Route de la Pointe à Chabot;17880;LES PORTES-EN-RÉ;0546295104;camping-les-portes@orange.fr;-;;;;130;;;;46.24747, -1.494472
@@ -11434,7 +11434,7 @@ DATE DE CLASSEMENT;DATE DE PUBLICATION DE L'ETABLISSEMENT;TYPOLOGIE ETABLISSEMEN
 2017-08-16;2017-08-16;CAMPING;2 étoiles;Tourisme;;CAMPING LE KERGORZ;Plage de Lestrevet;29550;PLOMODIERN;0298265041;patrickguyot2@wanadoo.fr;-;;;;49;;;;48.167416, -4.270409
 2013-07-29;2013-07-29;CAMPING;3 étoiles;Tourisme;;LA CHAREYRASSE;quartier Saint Pierre - chemin des îles;07200;AUBENAS;0442542925;henri.catry@wanadoo.fr;http://www.camping-la-chareyrasse.com/;;;;90;;;;44.599985, 4.398281
 2017-07-24;2017-07-24;CAMPING;3 étoiles;Loisirs;;CAMPING DU DOMAINE DES POTERIES;17 Domaine des Poteries;59158;FLINES-LÈS-MORTAGNE;0327268526;info@campingdespoteries.fr;http://www.campingdespoteries.fr;;;;100;;;;50.501432, 3.478989
-2017-08-16;2017-08-16;CAMPING;Aire naturelle;-;;CAMPING LA JAURIE;6 impasse de la jaurie;87500;LADIGNAC-LE-LONG;0555005223;camping@lajaurie.com;www.lajaurie.com;;;;20;;;;45.609002, 1.074396
+2017-08-16;2017-08-16;CAMPING;0 etoiles;-;;CAMPING LA JAURIE;6 impasse de la jaurie;87500;LADIGNAC-LE-LONG;0555005223;camping@lajaurie.com;www.lajaurie.com;;;;20;;;;45.609002, 1.074396
 2016-07-11;2016-07-11;CAMPING;3 étoiles;Tourisme;;CAMPING DU LAC;QUARTIER LABARRE;09000;FOIX;0561651158;v-a-p@orange.fr;http://www.vap-camping.fr;;;;135;;;;42.995713, 1.616093
 2017-12-07;2017-12-07;CAMPING;2 étoiles;Loisirs;;CAMPING LES MARGUERITES;508 rue georges doudoux;80550;LE CROTOY;0322278544;dominique.zeppa@wanadoo.fr;http://campinglesmarguerite.free.fr;;;;33;;;;50.221191, 1.618277
 2012-10-15;2012-10-15;CAMPING;2 étoiles;Tourisme;;CAMPING LE PRÉ FLEURI;62 Route d'Ailly;80500;MONTDIDIER;0322789322;campingleprefleuri@gmail.com;-;;;;54;;;;49.647539, 2.552531
@@ -11445,7 +11445,7 @@ DATE DE CLASSEMENT;DATE DE PUBLICATION DE L'ETABLISSEMENT;TYPOLOGIE ETABLISSEMEN
 2013-05-21;2013-05-21;CAMPING;2 étoiles;Tourisme;;CAMPING LE GRAND PRÉ;10 rue du 8 mai 1945;80510;LONG;0322318683;eurlneuville.campinglegrandpre@sfr.fr;www.campinglegrandpre.fr;;;;60;;;;50.03713, 1.978551
 2016-11-16;2016-11-16;CAMPING;4 étoiles;Tourisme;;CAMPING DES GOÉLANDS;11 rue des Grèbes;76370;PETIT CAUX;0235838290;contact@camping-les-goelands.fr;http://www.camping-les-goelands.fr/;;;;134;;;;49.966355, 1.204123
 2017-06-01;2017-06-01;CAMPING;2 étoiles;Tourisme;;CAMPING LE PÊCHEUR;160 AVENUE DU PETIT PORT;73100;AIX-LES-BAINS;0681167975;louis-paris@wanadoo.fr;http://www.campingpecheuraixlesbains.com;;;;42;;;;45.694677, 5.897135
-2016-06-17;2016-06-17;CAMPING;Aire naturelle;-;;AIRE NATURELLE DE FRANC;226 chemin de Franc;40660;MOLIETS-ET-MAA;0609441459;j.lafitte@sfr.fr;camping-de-franc.fr;;;;30;;;;43.855888, -1.359813
+2016-06-17;2016-06-17;CAMPING;0 etoiles;-;;AIRE NATURELLE DE FRANC;226 chemin de Franc;40660;MOLIETS-ET-MAA;0609441459;j.lafitte@sfr.fr;camping-de-franc.fr;;;;30;;;;43.855888, -1.359813
 2013-04-24;2013-04-24;RÉSIDENCE DE TOURISME;3 étoiles;-;;LES HAUTS DU GEVAUDAN;Vimenet;48100;MONTRODAT;0466495858;accueil.gites@allfs.fr;leshautsdugevaudan.com;;180;;;30;;;44.538569, 3.296365
 2015-02-11;2015-02-11;RÉSIDENCE DE TOURISME;4 étoiles;-;;APPART'HÔTEL LES CORDELIERS DIJON;5 rue TURGOT;21000;DIJON;0380428862;cordeliers@odalys.fr;http://www.odalys-vacances.com/location-campagne/bourgogne-et-ain/dijon/les-cordeliers.html;;236;;;74;;;47.31838, 5.040232
 2013-08-02;2013-08-02;RÉSIDENCE DE TOURISME;3 étoiles;-;;RÉSIDHOTEL GALERIE TATRY;174 COURS DU MEDOC;33300;BORDEAUX;0556077180;galerietatry@residhotel.com;www.residhotel.com;;274;;;111;;;44.863347, -0.572893
@@ -11596,7 +11596,7 @@ DATE DE CLASSEMENT;DATE DE PUBLICATION DE L'ETABLISSEMENT;TYPOLOGIE ETABLISSEMEN
 2012-11-10;2012-11-10;CAMPING;2 étoiles;Tourisme;;CAMPING MUNICIPAL DE LA GRAVE;LA GRAVE;12130;SAINTE-EULALIE-D'OLT;0565474459;ste.eulalie@wanadoo.fr;http://sainteeulaliedolt.fr;;;;40;;;;44.464761, 2.949232
 2012-10-15;2012-10-15;CAMPING;2 étoiles;Tourisme;;CAMPING DU LAC;3400 ROUTE DU LAC;88400;XONRUPT-LONGEMER;0329575291;agnes.albiser@wanadoo.fr;http://campinglaclongemer.fr/;;;;80;;;;48.063462, 6.957995
 2017-06-30;2017-06-30;CAMPING;3 étoiles;Tourisme;;LES 2 VALLÉES;Lieu-dit la gare;24220;VÉZAC;0553295355;contact@campingles2vallees.com;http://www.campingles2vallees.com/;;;;110;;;;44.825788, 1.174546
-2016-11-25;2016-11-25;CAMPING;Aire naturelle;-;;CAMPING LE HAOUD' ICI;8 RUE ROBERT DUBAA;40140;MAGESCQ;0558477072;contact@camping-haoudici.com;camping-haoudici.com;;;;15;;;;43.780124, -1.216292
+2016-11-25;2016-11-25;CAMPING;0 etoiles;-;;CAMPING LE HAOUD' ICI;8 RUE ROBERT DUBAA;40140;MAGESCQ;0558477072;contact@camping-haoudici.com;camping-haoudici.com;;;;15;;;;43.780124, -1.216292
 2016-08-22;2016-08-22;CAMPING;3 étoiles;Tourisme;;CAMPING MER SABLE SOLEIL;chemin du mouret Leucate plage;11370;LEUCATE;04 68 40 00 90;info@mer-sable-soleil.com;http://www.mer-sable-soleil.fr/fr/camping-leucate-plage.php;;;;49;;;;42.902031, 3.052778
 2017-08-30;2017-08-30;CAMPING;3 étoiles;Tourisme;;CAMPING LA PERLE;6 route de Lavaveix Fourneaux;23200;SAINT-MÉDARD-LA-ROCHETTE;0555830125;info@camping-laperle.nl;http://www.camping-laperle.nl;;;;33;;;;46.024982, 2.13469
 2013-02-25;2013-02-25;HÔTEL;2 étoiles;-;;HÔTEL DE LA PLAGE;1 place Edouard Houssin;62179;WISSANT;0321359187;hotelplage.wissant@wanadoo.fr;www.hotelplage-wissant.com;;74;29;;;;;50.88648, 1.66337
@@ -11704,7 +11704,7 @@ DATE DE CLASSEMENT;DATE DE PUBLICATION DE L'ETABLISSEMENT;TYPOLOGIE ETABLISSEMEN
 2013-01-07;2013-01-07;CAMPING;3 étoiles;Tourisme;;CAMPING SAINTE CLAIRE;19 Rue Grande Flandre;76270;NEUFCHÂTEL-EN-BRAY;0235930393;fancelot@wanadoo.fr;www.camping-st-clair.com;;;;100;;;;49.734736, 1.433336
 2013-08-10;2013-08-10;CAMPING;2 étoiles;Tourisme;;CAMPING LES COURNOULISES;LE BOURG;46160;MONTBRUN;0615530058;lescournoulises@sfr.fr;http://lescournoulises.perso.sfr.fr;;;;40;;;;44.504587, 1.900542
 2017-12-07;2017-12-07;CAMPING;4 étoiles;Tourisme;;CAMPING DES PINS;86 rue des moulins;22430;ERQUY;0296723112;camping.des.pins@wanadoo.fr;http://www.camping-erquy.fr/;;;;416;;;;48.638067, -2.45198
-2017-03-29;2017-03-29;CAMPING;Aire naturelle;-;;AIRE NATURELLE LAFARGUE DUPORT;1674 chemin de Mayotte;40600;BISCARROSSE;0558781064;airenaturelle.lafargue@gmail.com;-;;;;17;;;;44.435188, -1.148629
+2017-03-29;2017-03-29;CAMPING;0 etoiles;-;;AIRE NATURELLE LAFARGUE DUPORT;1674 chemin de Mayotte;40600;BISCARROSSE;0558781064;airenaturelle.lafargue@gmail.com;-;;;;17;;;;44.435188, -1.148629
 2013-01-07;2013-01-07;CAMPING;2 étoiles;Tourisme;;CAMPING DE LA VOUEIZE;1 avenue de la marche;23230;GOUZON;0555817322;camping-gouzon@orange.fr;-;;;;31;;;;46.188945, 2.237565
 2013-07-29;2013-07-29;CAMPING;2 étoiles;Tourisme;;CAMPING LE GRAND PRÉ;16 Route de Vicq;86260;SAINT-PIERRE-DE-MAILLÉ;05.49.48.60.19;saint-pierre-de-maille@cg86.fr;www.saint-pierre-de-maille.fr;;;;83;;;;46.68405, 0.839287
 2016-06-30;2016-06-30;CAMPING;4 étoiles;Tourisme;;CAMPING DU JARD;123 boulevard de Lattre de Tassigny;85360;LA TRANCHE-SUR-MER;0251274379;info@campingdujard.fr;http://www.campingdujard.fr;;;;350;;;;46.34756, -1.386809
@@ -11731,7 +11731,7 @@ DATE DE CLASSEMENT;DATE DE PUBLICATION DE L'ETABLISSEMENT;TYPOLOGIE ETABLISSEMEN
 2016-06-16;2016-06-16;CAMPING;4 étoiles;Tourisme;;CAMPING DU PONT;225 ROUTE DU CIRQUE DE GENS;07120;PRADONS;0475939398;campingdupont07@wanadoo.fr;http://www.campingdupontardeche.com;;;;84;;;;44.473258, 4.354624
 2017-06-30;2017-06-30;CAMPING;3 étoiles;Tourisme;;CAMPING BEAU SÉJOUR;11 chemin des Embruns;34340;MARSEILLAN;0467219300;reception@camping-beausejour.fr;http://camping-beausejour.fr;;;;102;;;;43.306407, 3.54257
 2017-07-31;2017-07-31;CAMPING;2 étoiles;Loisirs;;CAMPING LES CLOS FLEURIS;la ville es poulains;35260;CANCALE;0299899768;campingclosfleuris@free.fr;http://www.cancale-campings.fr;;;;111;;;;48.687257, -1.85922
-2016-10-23;2016-10-23;CAMPING;Aire naturelle;-;;ESPRIT NATURE;route des gorges du Tarn;12520;AGUESSAC;0565597203;espritnaturesarl@wanadoo.fr;www.escapade-espritnature.com;;;;5;;;;44.156298, 3.098692
+2016-10-23;2016-10-23;CAMPING;0 etoiles;-;;ESPRIT NATURE;route des gorges du Tarn;12520;AGUESSAC;0565597203;espritnaturesarl@wanadoo.fr;www.escapade-espritnature.com;;;;5;;;;44.156298, 3.098692
 2016-04-10;2016-04-10;HÔTEL;4 étoiles;-;;HÔTEL CENTRAL PARK & SPA;4 avenue Jean Guiton;17000;LA ROCHELLE;0546660606;contact@hotelcentralpark.fr;www.hotelcentralpark.fr;;94;41;;;;;46.158977, -1.160814
 2013-12-03;2013-12-03;HÔTEL;2 étoiles;-;;LOR'N HOTEL;12 Avenue maginot;55140;VAUCOULEURS;0329906970;lornhotel@gmail.com;http://www.lorn-hotel.fr/index.html;;19;10;;;;;48.605263, 5.665512
 2012-05-11;2012-05-11;HÔTEL;3 étoiles;-;;HÔTEL ALPHA PARIS TOUR EIFFEL;26 rue émile landrin;92100;BOULOGNE-BILLANCOURT;0146058052;HOTEL@ALPHA-PARIS-HOTEL.COM;http://alpha-paris-hotel.com/;;63;34;;;;;48.836076, 2.246379
@@ -13074,7 +13074,7 @@ DATE DE CLASSEMENT;DATE DE PUBLICATION DE L'ETABLISSEMENT;TYPOLOGIE ETABLISSEMEN
 2017-04-09;2017-04-09;CAMPING;2 étoiles;Tourisme;;CAMPING DES PONTS;220 chemin du Pont cassé;07700;SAINT-JUST;0475046731;camping-des-ponts-ardeche@hotmail.fr;www.camping-des-ponts.fr;;;;55;;;;44.281489, 4.614718
 2012-05-11;2012-05-11;CAMPING;1 étoile;Loisirs;;DOMAINE DE LA VILLE ROGON;rue de la ville rogon;22430;ERQUY;0629821331;viilerogon@orange.fr;www.ville-rogon.com;;;;52;;;;48.624823, -2.463807
 2014-07-16;2014-07-16;CAMPING;2 étoiles;Tourisme;;CAMPING GCU VENDRES;chemin des montilles;34350;VENDRES;0147639863;vendres3403@gcuf.fr;http://www.gcu.asso.fr/;;;;184;;;;43.232642, 3.25712
-2016-06-28;2016-06-28;CAMPING;Aire naturelle;-;;AIRE NATURELLE HOUN DE L'OR;440 Route de Saubion;40150;ANGRESSE;0680261597;camp.armelle@yahoo.fr;-;;;;8;;;;43.661164, -1.356987
+2016-06-28;2016-06-28;CAMPING;0 etoiles;-;;AIRE NATURELLE HOUN DE L'OR;440 Route de Saubion;40150;ANGRESSE;0680261597;camp.armelle@yahoo.fr;-;;;;8;;;;43.661164, -1.356987
 2016-06-16;2016-06-16;CAMPING;2 étoiles;Tourisme;;CAMPING MUNICIPAL DU GURP;51 ROUTE DE L'OCÉAN;33590;GRAYAN-ET-L'HÔPITAL;0556094301;camping-gurp@orange.fr;http://www.grayan-tourisme.com/h%C3%A9bergements/campings/le-gurp-2/;;;;1000;;;;45.433501, -1.144719
 2017-08-03;2017-08-03;CAMPING;4 étoiles;Loisirs;;CAMPING LE BOIS MASSON;149 Rue des Sables;85160;SAINT-JEAN-DE-MONTS;0251586262;marc@siblu.fr;http://www.siblu.fr/camping-le-bois-masson/;;;;345;;;;46.787702, -2.031212
 2014-07-18;2014-07-18;CAMPING;2 étoiles;Tourisme;;CAMPING DES DUNES;832 Boulevard de la Mer;50710;CRÉANCES;0233463186;mairiedecreances@orange.fr;http://www.ville-creances.fr/;;;;120;;;;49.199103, -1.584716
@@ -13890,7 +13890,7 @@ DATE DE CLASSEMENT;DATE DE PUBLICATION DE L'ETABLISSEMENT;TYPOLOGIE ETABLISSEMEN
 2017-07-26;2017-07-26;CAMPING;3 étoiles;Tourisme;;CAMPING LE ROUSTOU;le Roustourias;05230;PRUNIÈRES;0492506263;info@campingleroustou.com;http://www.campingleroustou.com/;;;;227;;;;44.522937, 6.339939
 2017-07-26;2017-07-26;CAMPING;2 étoiles;Tourisme;;CAMPING LA COCCINELLE;Le Bourg;63440;BLOT-L'ÉGLISE;0473649315;info@campingcoccinelle.com;http://www.campingcoccinelle.com;;;;49;;;;46.03764, 2.930653
 2017-06-06;2017-06-06;CAMPING;3 étoiles;Tourisme;;CAMPING LE REPOS DU BALADIN;groire;63790;MUROL;0473886193;reposbaladin@free.fr;http://www.camping-auvergne-france.com;;;;91;;;;45.571827, 2.95637
-2016-03-06;2016-03-06;CAMPING;Aire naturelle;-;;DOMAINE DE VILLEMARIN;route de meze;34340;MARSEILLAN;0467770462;michel.rogi@wanadoo.fr;www.campingdevillemarin.fr;;;;25;;;;43.396196, 3.538453
+2016-03-06;2016-03-06;CAMPING;0 etoiles;-;;DOMAINE DE VILLEMARIN;route de meze;34340;MARSEILLAN;0467770462;michel.rogi@wanadoo.fr;www.campingdevillemarin.fr;;;;25;;;;43.396196, 3.538453
 2017-12-06;2017-12-06;CAMPING;3 étoiles;Tourisme;;CAMPING LE CLOU;LE TROUILLOL;24220;COUX-ET-BIGAROQUE;0553316332;info@camping-le-clou.com;http://www.camping-le-clou.com;;;;120;;;;44.861583, 0.979219
 2012-10-19;2012-10-19;CAMPING;3 étoiles;Tourisme;;CAMPING LES RIVES DU LOUP;2666 bis route  de la colle;06140;TOURRETTES-SUR-LOUP;0493241565;a.bathmann@rivesduloup.com;http://www.rivesduloup.com/;;;;116;;;;43.705761, 7.002106
 2013-05-09;2013-05-09;CAMPING;3 étoiles;Loisirs;;CAMPING DU QUINQUIS;Le Pouldu;29360;CLOHARS-CARNOËT;0298399240;holidays@campingquinquis.com;www.campingquinquis.com;;;;162;;;;47.785291, -3.57955
@@ -17441,7 +17441,7 @@ DATE DE CLASSEMENT;DATE DE PUBLICATION DE L'ETABLISSEMENT;TYPOLOGIE ETABLISSEMEN
 2013-04-23;2013-04-23;CAMPING;2 étoiles;Tourisme;;CAMPING COMME AU SOLEIL;route du plan d'eau;43700;COUBON;0471083255;campingcoubon@hotmail.fr;camping-le-puy.fr;;;;48;;;;44.997049, 3.914949
 2012-09-26;2012-09-26;CAMPING;3 étoiles;Tourisme;;CAMPING LE DOMAINE DU CASTEX;LE DOMAINE DU CASTEX;32290;AIGNAN;0562092513;info@domaine-castex.com;http://www.domaine-castex.com;;;;46;;;;43.692329, 0.074543
 2012-06-12;2012-06-12;CAMPING;4 étoiles;Tourisme;;CAMPING L'OASIS BERRY;rue de la pierre plate;36800;SAINT-GAULTIER;0254471704;loasisduberry@wanadoo.fr;www.campoasisduberry.com;;;;57;;;;46.63447, 1.412128
-2016-12-07;2016-12-07;CAMPING;Aire naturelle;-;;AIRE NATURELLE LE TOY;1284 route des carroués;40990;HERM;0558915516;vincent.fabas@laposte.net;http://www.camping-du-toy.com/fr/;;;;30;;;;43.823703, -1.150631
+2016-12-07;2016-12-07;CAMPING;0 etoiles;-;;AIRE NATURELLE LE TOY;1284 route des carroués;40990;HERM;0558915516;vincent.fabas@laposte.net;http://www.camping-du-toy.com/fr/;;;;30;;;;43.823703, -1.150631
 2017-06-07;2017-06-07;CAMPING;4 étoiles;Tourisme;;CAMPING DU LAC DE BOURNAZEL;Seilhac Le Lac;19700;SEILHAC;0555270565;mtloisirs@free.fr;www.camping-lac-bournazel.com;;;;120;;;;45.370114, 1.701299
 2012-05-11;2012-05-11;CAMPING;1 étoile;Tourisme;;CAMPING LES MYRTILLES;102 Chemin des bas-rupts;88400;GÉRARDMER;0329632138;campinglesmyrtilles@wanadoo.fr;http://lesmyrtilles.pagesperso-orange.fr/;;;;50;;;;48.047566, 6.868798
 2012-10-19;2012-10-19;CAMPING;2 étoiles;Tourisme;;CAMPING LES BOUCLES DE LA MOSELLE;7 avenue Eugène Lerebourg;54460;LIVERDUN;0033(0)383244378;thierry.lbm@free.fr;www.lesbouclesdelamoselle.com;;;;195;;;;48.747322, 6.05666
@@ -18073,7 +18073,7 @@ DATE DE CLASSEMENT;DATE DE PUBLICATION DE L'ETABLISSEMENT;TYPOLOGIE ETABLISSEMEN
 2012-05-11;2012-05-11;CAMPING;2 étoiles;Tourisme;;CAMPING MUNICIPAL LE MOULIN À VENT;Rue du Moulin à Vent;34290;ALIGNAN-DU-VENT;0467249112;mairie.alignanduvent@wanadoo.fr;-;;;;35;;;;43.47374, 3.343456
 2017-10-07;2017-10-07;CAMPING;3 étoiles;Tourisme;;CAMPING ISERAND;1307 RUE ROYALE;07610;VION;0475080173;iserand@sfr.fr;www.iserandcampingardeche.com;;;;60;;;;45.1211, 4.800222
 2013-10-30;2013-10-30;CAMPING;2 étoiles;Tourisme;;CAMPING DU VAL;LE VAL;61130;BELLÊME;0233731569;beulay-automobiles@wanadoo.fr;-;;;;35;;;;48.372204, 0.557641
-2016-05-08;2016-08-26;CAMPING;Aire naturelle;-;;LE MANDRIALE;route de Lozzi;20130;CARGÈSE;0495255960;camping.le.Mandriale@gmail.com;-;;;;21;;;;42.159969, 8.61593
+2016-05-08;2016-08-26;CAMPING;0 etoiles;-;;LE MANDRIALE;route de Lozzi;20130;CARGÈSE;0495255960;camping.le.Mandriale@gmail.com;-;;;;21;;;;42.159969, 8.61593
 2013-07-29;2013-07-29;CAMPING;2 étoiles;Tourisme;;CAMPING LA FONTINELLE;La fontinelle;07150;BESSAS;0475386569;la-fontinelle@wanadoo.fr;http://www.gites-la-fontinelle.com;;;;12;;;;44.343732, 4.303074
 2017-10-02;2017-10-02;CAMPING;3 étoiles;Tourisme;;CAMPING LES CASTEILLETS;LES CASTEILLETS;66490;SAINT-JEAN-PLA-DE-CORTS;0468832683;valerie@campinglescasteillets.com;www.campinglescasteillets.com;;;;134;;;;42.509248, 2.783152
 2017-10-07;2017-10-07;CAMPING;3 étoiles;Tourisme;;CAMPING DE KERDUAL;Plage de Pors Mabo;22560;TRÉBEURDEN;0683116749;camping.dekerdual@orange.fr;http://campingdekerdual.fr;;;;26;;;;48.764441, -3.564219
@@ -18169,7 +18169,7 @@ DATE DE CLASSEMENT;DATE DE PUBLICATION DE L'ETABLISSEMENT;TYPOLOGIE ETABLISSEMEN
 2016-09-23;2016-09-23;CAMPING;4 étoiles;Tourisme;;CAMPING SUNELIA BERRUA;RUE BERRUA;64210;BIDART;0559549666;contact@berrua.com;http://www.berrua.com;;;;255;;;;43.438953, -1.584689
 2014-07-16;2014-07-16;CAMPING;2 étoiles;Tourisme;;CAMPING DU CHÂTEAU;Rue Henri II de Rohan;44130;BLAIN;02-40-79-11-00;camping@ville-blain.fr;-;;;;45;;;;47.467641, -1.76758
 2015-11-24;2015-11-24;CAMPING;3 étoiles;Tourisme;;CAMPING INTERNATIONAL DU SIERROZ;Boulevard Robert Barrier;73100;AIX-LES-BAINS;0479618989;info@camping-sierroz.com;http://www.camping-sierroz.com;;;;187;;;;45.700967, 5.886966
-2017-08-28;2017-08-28;CAMPING;Aire naturelle;-;;AIRE NATURELLE CAMPING LA LOIRE FLEURIE;60 chemin de la Jalonnière;85300;LE PERRIER;0244366347;contact.laloirefleurie@gmail.com;www.camping-laloirefleurie.com;;;;24;;;;46.834069, -1.983918
+2017-08-28;2017-08-28;CAMPING;0 etoiles;-;;AIRE NATURELLE CAMPING LA LOIRE FLEURIE;60 chemin de la Jalonnière;85300;LE PERRIER;0244366347;contact.laloirefleurie@gmail.com;www.camping-laloirefleurie.com;;;;24;;;;46.834069, -1.983918
 2017-06-30;2017-06-30;CAMPING;2 étoiles;Tourisme;;CAMPING DU LAC DE MALAGUÉ;LIEU-DIT MALAGUé;49140;CHAUMONT-D'ANJOU;0971001000;contact@campinglacdemalague.fr;http://www.lacdemalague.fr/;;;;46;;;;47.54852, -0.292076
 2016-03-08;2016-03-08;CAMPING;4 étoiles;Tourisme;;CAMPING LA DOURBIE;route de nant;12230;SAINT-JEAN-DU-BRUEL;0565460640;campingladourbie@orange.fr;http://www.camping-la-dourbie.com;;;;77;;;;44.024313, 3.355656
 2013-07-08;2013-07-08;CAMPING;3 étoiles;Loisirs;;CAMPING LE CAP VERT;11 rue du NORD;59122;LES MOËRES;0328634930;jf.maes@flandira-loisirs.com;http://www.camping-capvert.com/;;;;44;;;;51.034913, 2.568397
