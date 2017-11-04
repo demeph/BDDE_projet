@@ -24,3 +24,18 @@ Create table etablissement(
 	mention varchar2(50),
 	typeSejour varchar2(30)
 );
+
+Create table tableDeFait(
+	idDate integer references laDate  on delete cascade,
+	idAdress integer references adresse  on delete cascade,
+	idEtablissement integer references etablissement  on delete cascade,
+	typologie varchar2(30),
+	classement varchar2(15),
+	categorie varchar2(20),
+	capaciteAccPersonne integer,
+	nbChambre integer,
+	nbEmplacement integer,
+	nbHabitationResidences integer,
+	nbHabitationVillage integer,
+	primary key(idEtablissement,idAdress,idDate)
+)
