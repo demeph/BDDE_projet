@@ -38,4 +38,32 @@ Create table tableDeFait(
 	nbHabitationResidences integer,
 	nbHabitationVillage integer,
 	primary key(idEtablissement,idAdress,idDate)
-)
+);
+
+
+Create table lesCommunes (
+	codeInsee integer,
+	codePostale integer,
+	commune varchar2(50),
+	departement varchar2(50),
+	region varchar2(50),
+	superficie float,
+	population integer,
+	primary key(codeInsee,codePostale)
+);
+
+Create table tabletemp(
+	id integer primary key,
+	datePublication date,
+	dateClassement date,
+	typologie varchar2(30),
+	classement varchar2(15),
+	categorie varchar2(20),	
+	codePostale integer
+);
+
+
+create table tableDeFait2 as (
+	select typologie,classement,categorie,a.codePostale,departement,region,superficie,population 
+	from tabletemp a right join lesCommunes b on a.codePostale = b.codePostale
+	);
