@@ -42,12 +42,12 @@ Create table tableDeFait(
 
 
 Create table lesCommunes (
-	codeInsee integer primary key,
+	codeInsee integer,
 	codePostale integer,
 	commune varchar2(50),
 	altitude float,
-	statue varchar2(35),
-	geo_point_2d varchar2(10),
+	statut varchar2(35),
+	geo_point_2d varchar2(50),
 	id_geofla integer,
 	codeCommune varchar2(10),
 	codeCanton varchar2(15),
@@ -56,16 +56,16 @@ Create table lesCommunes (
 	codeRegion varchar2(5)
 );
 
-
-create table tebledefait2(
-	codeInsee integer primary key,
-	codePostale varchar2(5),
-	region varchar2(50),
-	population integer,
-	superficie float,
-	departement varchar2(50),
-	typologie varchar2(30),
-	classement integer,
-	categorie varchar2(20),
-)
-
+create table tabledefait2 (
+  	idEtablissement references etablissement,
+  	codeInsee integer,
+  	codePostale varchar2(5),
+  	region varchar2(50),
+  	population integer,
+  	superficie float,
+  	departement varchar2(50),
+  	typologie varchar2(30),
+  	classement integer,
+  	categorie varchar2(20),
+	primary key(idEtablissement)
+);
