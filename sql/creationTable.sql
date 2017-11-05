@@ -30,7 +30,7 @@ Create table tableDeFait(
 	idAdress integer references adresse  on delete cascade,
 	idEtablissement integer references etablissement  on delete cascade,
 	typologie varchar2(30),
-	classement varchar2(15),
+	classement integer,
 	categorie varchar2(20),
 	capaciteAccPersonne integer,
 	nbChambre integer,
@@ -42,28 +42,30 @@ Create table tableDeFait(
 
 
 Create table lesCommunes (
-	codeInsee integer,
+	codeInsee integer primary key,
 	codePostale integer,
 	commune varchar2(50),
-	departement varchar2(50),
+	altitude float,
+	statue varchar2(35),
+	geo_point_2d varchar2(10),
+	id_geofla integer,
+	codeCommune varchar2(10),
+	codeCanton varchar2(15),
+	codeArondissement integer,
+	codeDepartement varchar2(5),
+	codeRegion varchar2(5)
+);
+
+
+create table tebledefait2(
+	codeInsee integer primary key,
+	codePostale varchar2(5),
 	region varchar2(50),
-	superficie float,
 	population integer,
-	primary key(codeInsee,codePostale)
-);
-
-Create table tabletemp(
-	id integer primary key,
-	datePublication date,
-	dateClassement date,
+	superficie float,
+	departement varchar2(50),
 	typologie varchar2(30),
-	classement varchar2(15),
-	categorie varchar2(20),	
-	codePostale integer
-);
+	classement integer,
+	categorie varchar2(20),
+)
 
-
-create table tableDeFait2 as (
-	select typologie,classement,categorie,a.codePostale,departement,region,superficie,population 
-	from tabletemp a right join lesCommunes b on a.codePostale = b.codePostale
-	);
