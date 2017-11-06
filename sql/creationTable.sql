@@ -57,7 +57,7 @@ Create table lesCommunes (
 );
 
 create table tabledefait2 (
-  	idEtablissement references etablissement,
+  	idEtablissement,
   	codeInsee integer,
   	codePostale varchar2(5),
   	region varchar2(50),
