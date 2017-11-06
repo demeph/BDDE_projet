@@ -4,7 +4,7 @@ SELECT dt.annee, f.typologie, avg(f.classement),
 	grouping(dt.annee) as annee,
 	grouping(f.typologie) as typeEtablissement
 FROM laDate dt, tableDeFait f
-WHERE dt.idDate = f.idDate
+WHERE dt.idDate  = f.dateClassement
 GROUP BY CUBE (dt.annee, f.typologie)
 
 
@@ -14,7 +14,7 @@ SELECT dt.annee, f.typologie, avg(f.classement),
 	grouping(dt.annee) as annee,
 	grouping(f.typologie) as typeEtablissement
 FROM laDate dt, tableDeFait f
-WHERE dt.idDate = f.idDate
+WHERE dt.idDate = f.dateClassement
 GROUP BY GROUPING SETS ((dt.annee), (f.typologie))
 
 

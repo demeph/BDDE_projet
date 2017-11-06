@@ -3,9 +3,10 @@ Drop table adresse;
 Drop table etablissement;
 
 Create Table laDate (
-	idDate integer primary key,
-	datePublication date,
-	dateClassement date
+	idDate date primary key,
+	annee varchar2(4),
+	mois varchar2(2),
+	jour varchar2(2)
 );
 
 Create Table adresse(
@@ -26,9 +27,10 @@ Create table etablissement(
 );
 
 Create table tableDeFait(
-	idDate integer references laDate  on delete cascade,
-	idAdress integer references adresse  on delete cascade,
-	idEtablissement integer references etablissement  on delete cascade,
+	idAdress integer,
+	idEtablissement integer,
+	datePublication date,
+	dateClassement date,
 	typologie varchar2(30),
 	classement integer,
 	categorie varchar2(20),
@@ -37,7 +39,7 @@ Create table tableDeFait(
 	nbEmplacement integer,
 	nbHabitationResidences integer,
 	nbHabitationVillage integer,
-	primary key(idEtablissement,idAdress,idDate)
+	primary key(idEtablissement,idAdress,datePublication,dateClassement)
 );
 
 
@@ -57,7 +59,7 @@ Create table lesCommunes (
 );
 
 create table tabledefait2 (
-  	idEtablissement,
+  	idEtablissement integer,
   	codeInsee integer,
   	codePostale varchar2(5),
   	region varchar2(50),
