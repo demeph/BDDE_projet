@@ -63,7 +63,7 @@ create table tabledefait2 (
   	codeInsee integer,
   	codePostale varchar2(5),
   	region varchar2(50),
-  	population integer,
+  	population float,
   	superficie float,
   	departement varchar2(50),
   	typologie varchar2(30),
