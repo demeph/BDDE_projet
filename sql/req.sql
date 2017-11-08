@@ -61,3 +61,9 @@ WHERE f.codeInsee = lc.codeInsee and typologie = "HÔTEL"
 GROUP BY lc.commune, f.typologie
 
 
+-- Augmentation dans le temps des places d'hébergements
+SELECT ld.annee, sum(f.nbChambres), sum(sum(f.nbChambres)) over (order by ld.annee rows unbounded preceding)
+FROM tableDeFait f, laDate ld
+WHERE f.dateClassement = ld.idDate
+
+
