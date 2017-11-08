@@ -36,3 +36,21 @@ SELECT f.categorie, at.commune, avg(f.classement),
 FROM laDate dt, adresse at, tableDeFait f
 WHERE f.idAdress = at.idAdress
 GROUP BY f.categorie, at.commune
+
+
+
+-- Pour chaque département le classement des établissements par type de séjour
+SELECT f.departement, f.typologie, avg(f.classement),
+	dense_rank() over (PARTITION BY e.typeSejour ORDER BY avg(f.classement) desc) rank	
+FROM tableDeFait2 f
+GROUP BY f.departement, f.typologie
+
+-- Nombre d'hôtels par habitants
+SELECT lc.commune, (count(f.typologie) / f.population)
+FROM tableDeFait2 f, lesCommunes lc
+WHERE f.codeInsee = lc.codeInsee and typologie = "HÔTEL"
+GROUP BY lc.commune, f.typologie
+
+
+
+
