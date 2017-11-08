@@ -24,8 +24,8 @@ GROUP BY GROUPING SETS ((dt.annee), (f.typologie))
 -- avec au moins 3 étoiles
 SELECT dt.annee, at.commune, f.typologie, sum(f.classement)
 FROM laDate dt, adresse at, tableDeFait f
-WHERE f.idDate = dt.idDate AND f.idAdress = at.idAdress AND classement >= 3 
-GROUP BY ROLLUP (commune, f.typologie, dt.annee)
+WHERE f.dateClassement = dt.idDate AND f.idAdress = at.idAdress AND classement >= 3 
+GROUP BY ROLLUP (at.commune, f.typologie, dt.annee)
 
 
 
