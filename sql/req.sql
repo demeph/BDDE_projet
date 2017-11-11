@@ -55,6 +55,7 @@ FROM tableDeFait2 f
 GROUP BY f.departement, f.typologie
 
 -- Nombre d'hôtels par habitants
+--modifie
 SELECT lc.commune, (count(f.typologie) / f.population)
 FROM tableDeFait2 f, lesCommunes lc
 WHERE f.codeInsee = lc.codeInsee and typologie = "HÔTEL"
@@ -62,10 +63,11 @@ GROUP BY lc.commune, f.typologie
 
 
 -- Augmentation dans le temps des places d'hébergements
-SELECT ld.annee, sum(f.nbChambres), sum(sum(f.nbChambres)) over (order by ld.annee rows unbounded preceding)
+-- modifie
+SELECT ld.annee, sum(f.nbChambre), sum(sum(f.nbChambre)) over (order by ld.annee rows unbounded preceding)
 FROM tableDeFait f, laDate ld
 WHERE f.dateClassement = ld.idDate
-
+group by ld.annee;
 
 select avg(avg(f.population*1000/f.superficie*10)) as average
 from TABLEDEFAIT2 f
