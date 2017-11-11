@@ -1,6 +1,9 @@
 Drop table laDate;
 Drop table adresse;
 Drop table etablissement;
+Drop table lesCommunes;
+drop table tabledefait2;
+drop table tableDeFait;
 
 Create Table laDate (
 	idDate date primary key,
@@ -61,7 +64,6 @@ Create table lesCommunes (
 create table tabledefait2 (
   	idEtablissement integer,
   	codeInsee integer,
-  	codePostale varchar2(5),
   	region varchar2(50),
   	population float,
   	superficie float,
