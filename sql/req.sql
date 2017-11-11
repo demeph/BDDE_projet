@@ -70,5 +70,5 @@ WHERE f.dateClassement = ld.idDate
 group by ld.annee;
 
 select avg(avg(f.population*1000/f.superficie*10)) as average
-from TABLEDEFAIT2 f
+from tableDeFait2 f
 group by f.POPULATION,f.SUPERFICIE;
