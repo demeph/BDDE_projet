@@ -33,8 +33,8 @@ AS SELECT categorie, AVG(f.classement)
 FROM  tableDeFait f 
 GROUP BY categorie;
 
---Vue 4
+-- Vue 4
 create materialized view densite
-asselect f2.codeINSEE, f2>population,f.superficie,(f2.population*1000/f2.superficie*10) as rapport
+asselect f2.codeINSEE, f2.population,f.superficie,(f2.population*1000/f2.superficie*10) as rapport
 from tabledefait2 f2
 group by f2.codeINsee,f2.population,f2.superficie;

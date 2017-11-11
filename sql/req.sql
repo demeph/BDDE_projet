@@ -62,8 +62,8 @@ GROUP BY f2.departement, f.typologie,f.CLASSEMENT,etab.typesejour;
 --modifie et fonctionne
 SELECT lc.commune, (count(f.typologie) / f.population)
 FROM tableDeFait2 f, lesCommunes lc
-WHERE f.codeInsee = lc.codeInsee and typologie = "HÔTEL"
-GROUP BY lc.commune, f.typologie
+WHERE f.codeInsee = lc.codeInsee and f.typologie = 'HÔTEL'
+GROUP BY lc.commune, f.typologie,f.population;
 
 
 -- Requete 7
