@@ -61,8 +61,8 @@ GROUP BY f2.departement, f.typologie,f.CLASSEMENT,etab.typesejour;
 -- Nombre d'hôtels par habitants
 --modifie et fonctionne
 SELECT lc.commune, (count(f.typologie) / f.population)
-FROM tableDeFait2 f, lesCommunes lc
-WHERE f.codeInsee = lc.codeInsee and f.typologie = 'HÔTEL'
+FROM tableDeFait2 f, DETAILLOCATION lc
+WHERE f.codeInsee = lc.codeInsee and f.typologie = 'HÔTEL' and f.population != 0
 GROUP BY lc.commune, f.typologie,f.population;
 
 

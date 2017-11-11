@@ -2,7 +2,7 @@
 -- jointure sur les locations -> code postal, commune, departement, region
 
 CREATE MATERIALIZED VIEW detailLocation
-AS SELECT a.commune, a.codePostale, f2.departement,f2.region
+AS SELECT f2.codeInsee,a.commune, a.codePostale, f2.departement,f2.region
 FROM tabledefait2 f2, lesCommunes lc, adresse a
 WHERE a.codePostale = lc.codePostale and  f2.CODEINSEE = lc.codeInsee
 group by  a.commune, a.codePostale, f2.departement,f2.region;
