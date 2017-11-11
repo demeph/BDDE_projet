@@ -2,10 +2,10 @@
 -- jointure sur les locations -> code postal, commune, departement, region
 
 CREATE MATERIALIZED VIEW detailLocation
-AS SELECT commune, code codePostale, departement, codeDepartement, region, codeRegion
-FROM adresse a, lesCommunes lc
-WHERE a.codePostale = lc.codePostale and a.commune = lc.commune
-Group by region, departement, codePostale, commune;
+AS SELECT a.commune, a.codePostale, f2.departement,f2.region
+FROM tabledefait2 f2, lesCommunes lc, adresse a
+WHERE a.codePostale = lc.codePostale and  f2.CODEINSEE = lc.codeInsee
+group by  a.commune, a.codePostale, f2.departement,f2.region;
 
 
 -- Vue 2 :
@@ -19,7 +19,6 @@ Group by region, departement, codePostale, commune;
 -- Vue 3 :
 -- tableau des moyennes
 CREATE MATERIALIZED VIEW Moyenne
-AS SELECT AVG(f.classement)
-	grouping(dt.annee) as annee,
-	grouping(f.categorie) as categorie
-FROM  tableDeFait f;
+AS SELECT categorie, AVG(f.classement)
+FROM  tableDeFait f 
+GROUP BY categorie;
