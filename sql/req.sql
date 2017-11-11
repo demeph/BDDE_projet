@@ -47,28 +47,30 @@ WHERE f.idAdress = at.idAdress
 GROUP BY f.categorie, at.commune
 
 
-
+-- Requete 5
 -- Pour chaque département le classement des établissements par type de séjour
-SELECT f.departement, f.typologie, avg(f.classement),
-	dense_rank() over (PARTITION BY e.typeSejour ORDER BY avg(f.classement) desc) rank	
-FROM tableDeFait2 f
-GROUP BY f.departement, f.typologie
+--fonctionne
+SELECT f2.departement, f.typologie, avg(f.classement),
+	dense_rank() over (PARTITION BY etab.typeSejour ORDER BY avg(f.classement) desc) rank	
+FROM tableDeFait f, ETABLISSEMENT etab,tabledefait2 f2
+where etab.IDETABLISSEMENT = f.IDETABLISSEMENT and f2.IDETABLISSEMENT = f.IDETABLISSEMENT
+GROUP BY f2.departement, f.typologie,f.CLASSEMENT,etab.typesejour;
 
+-- Requete 6
 -- Nombre d'hôtels par habitants
---modifie
+--modifie et fonctionne
 SELECT lc.commune, (count(f.typologie) / f.population)
 FROM tableDeFait2 f, lesCommunes lc
 WHERE f.codeInsee = lc.codeInsee and typologie = "HÔTEL"
 GROUP BY lc.commune, f.typologie
 
-
+-- Requete 7
 -- Augmentation dans le temps des places d'hébergements
--- modifie
+-- modifie et fonctionne
 SELECT ld.annee, sum(f.nbChambre), sum(sum(f.nbChambre)) over (order by ld.annee rows unbounded preceding)
 FROM tableDeFait f, laDate ld
 WHERE f.dateClassement = ld.idDate
 group by ld.annee;
 
-select avg(avg(f.population*1000/f.superficie*10)) as average
-from TABLEDEFAIT2 f
-group by f.POPULATION,f.SUPERFICIE;
+--Requete 8
+select avg(rapport) from densite;
