@@ -11,7 +11,7 @@ GROUP BY CUBE (dt.annee, f.typologie);
 
 --Requete 2
 -- Moyenne du nombre d'étoile par an, par type d'établissement
-SELECT dt.annee, f.typologie, avg(f.classement),grouping(dt.annee) as annee,grouping(f.typologie) as typeEtablissement
+SELECT dt.annee, f.typologie, avg(f.classement),grouping_id(dt.annee,f.typologie) as GRP
 FROM laDate dt, tableDeFait f
 WHERE dt.idDate = f.dateClassement
 GROUP BY GROUPING SETS ((dt.annee), (f.typologie));
