@@ -1,5 +1,8 @@
 \select@language {french}
 \contentsline {section}{\numberline {1}Introduction}{3}{section.1}
-\contentsline {section}{\numberline {2}Premi\IeC {\`e}re partie}{3}{section.2}
-\contentsline {section}{\numberline {3}Conclusion}{3}{section.3}
-\contentsline {section}{\numberline {4}Annexe}{4}{section.4}
+\contentsline {section}{\numberline {2}Choix des donn\IeC {\'e}es}{3}{section.2}
+\contentsline {section}{\numberline {3}Sch\IeC {\'e}ma en \IeC {\'e}toile}{3}{section.3}
+\contentsline {section}{\numberline {4}Int\IeC {\'e}gration avec Talend}{3}{section.4}
+\contentsline {section}{\numberline {5}Requ\IeC {\^e}tes}{3}{section.5}
+\contentsline {section}{\numberline {6}Conclusion}{3}{section.6}
+\contentsline {section}{\numberline {7}Annexe}{4}{section.7}
