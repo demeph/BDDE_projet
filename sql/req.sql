@@ -82,6 +82,6 @@ FROM densite;
 -- Requete 10
 -- Classement des regions ayant les hôtels qui ont la plus grande capacité d'accueil
 SELECT s.region, s.sum
-FROM sommme s? tabledefait2 f2
+FROM somme s? tabledefait2 f2
 WHERE s.region = f2.region
 ORDER BY sum
