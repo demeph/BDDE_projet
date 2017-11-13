@@ -1,8 +1,8 @@
 -- Requete 1
 -- Moyenne du nombre d'étoile par an et par type d'établissement, par an, par type, moyenne générale
 SELECT dt.annee, f.typologie, avg(f.classement),
-	grouping(dt.annee) as annee,
-	grouping(f.typologie) as typeEtablissement
+	grouping(dt.annee) AS annee,
+	grouping(f.typologie) AS typeEtablissement
 FROM laDate dt, tableDeFait f
 WHERE dt.idDate  = f.dateClassement
 GROUP BY CUBE (dt.annee, f.typologie);
@@ -29,7 +29,7 @@ GROUP BY ROLLUP (at.commune, f.typologie, dt.annee);
 -- version 1
 SELECT f.categorie, at.commune, avg(f.classement),
 	dense_rank() over (PARTITION BY f.categorie 
-				ORDER BY avg(f.classement) desc) rank
+				ORDER BY avg(f.classement) DESC) rank
 FROM laDate dt, adresse at, tableDeFait f
 WHERE f.idAdress = at.idAdress
 GROUP BY f.categorie, at.commune;
@@ -37,7 +37,7 @@ GROUP BY f.categorie, at.commune;
 -- version 2
 SELECT f.categorie, at.commune, avg(f.classement),
 	rank() over (PARTITION BY f.categorie
-				ORDER BY avg(f.classement) desc) rank
+				ORDER BY avg(f.classement) DESC) rank
 FROM laDate dt, adresse at, tableDeFait f
 WHERE f.idAdress = at.idAdress
 GROUP BY f.categorie, at.commune
@@ -46,23 +46,23 @@ GROUP BY f.categorie, at.commune
 -- Requete 5
 -- Pour chaque département le classement des établissements par type de séjour
 SELECT f2.departement, f.typologie, avg(f.classement),
-	dense_rank() over (PARTITION BY etab.typeSejour ORDER BY avg(f.classement) desc) rank	
+	dense_rank() over (PARTITION BY etab.typeSejour ORDER BY avg(f.classement) DESC) rank	
 FROM tableDeFait f, ETABLISSEMENT etab,tabledefait2 f2
-WHERE etab.IDETABLISSEMENT = f.IDETABLISSEMENT and f2.IDETABLISSEMENT = f.IDETABLISSEMENT
+WHERE etab.IDETABLISSEMENT = f.IDETABLISSEMENT AND f2.IDETABLISSEMENT = f.IDETABLISSEMENT
 GROUP BY f2.departement, f.typologie,f.CLASSEMENT,etab.typesejour;
 
 
 -- Requete 6
 -- Nombre d'hôtels par habitants modifie et fonctionne
-SELECT lc.commune, (count(f.typologie) / f.population)
+SELECT lc.commune, (COUNT(f.typologie) / f.population)
 FROM tableDeFait2 f, DETAILLOCATION lc
-WHERE f.codeInsee = lc.codeInsee and f.typologie = 'HÔTEL' and f.population != 0
+WHERE f.codeInsee = lc.codeInsee AND f.typologie = 'HÔTEL' AND f.population != 0
 GROUP BY lc.commune, f.typologie,f.population;
 
 
 -- Requete 7
 -- Augmentation dans le temps des places d'hébergements
-SELECT ld.annee, sum(f.nbChambre), sum(sum(f.nbChambre)) over (order by ld.annee rows unbounded preceding)
+SELECT ld.annee, sum(f.nbChambre), sum(sum(f.nbChambre)) over (ORDER BY ld.annee rows unbounded preceding)
 FROM tableDeFait f, laDate ld
 WHERE f.dateClassement = ld.idDate
 GROUP BY ld.annee;
