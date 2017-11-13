@@ -57,27 +57,34 @@
 
 		\vspace{0.5cm}
 		
-		L'objectif de ce projet est de réaliser un entrepôt de données (OLAP) ainsi que des requêtes intéressantes sur un ou plusieurs jeu de données libres (open data). Pour ce faire nous avons choisis deux jeux de données : le premier sur les hébergements collectifs en France, c'est à dire les hôtels, les campings et les résidences avec des informations sur leur location, leur classement (étoile) et leur capacité d'accueil notamment. Le deuxième jeu de donnée recueil toutes les communes de France, en indiquant leur population, leur superficie, leur code postal ainsi que leur département et leur région entre autre. Ce dernier nous permet d'affiner nos requête, d'en proposer des plus complexes mais aussi de pouvoir faire des regroupements et des classements par région et par département. Nous avons choisis de réaliser ce projet en PL/SQL ainsi que d'utiliser Talend pour nettoyer nos données et concevoir nos tables relationnelles. \\
+		L'objectif de ce projet est de réaliser un entrepôt de données (OLAP) ainsi que des requêtes intéressantes sur un ou plusieurs jeu de données libres (open data). Pour ce faire nous avons choisis deux jeux de données. Nous avons également choisis de réaliser ce projet en PL/SQL ainsi que d'utiliser Talend pour nettoyer nos données et concevoir nos tables relationnelles. \\
 
 
 	\section{Choix des données}				
 
 		\vspace{0.5cm}
 		
-			
-		
-		
-
-
-		
-	\section{Schéma en étoile}
+		 Nous avons trouver nos données sur le site ''opendatasoft'', elles sont aussi présente sur le site ''data.gouv''. Le premier jeu de données est sur les hébergements collectifs en France : c'est à dire les hôtels, les campings et les résidences avec des informations sur leur location, leur classement (étoile) et leur capacité d'accueil notamment. Le deuxième jeu de donnée recueil toutes les communes de France, en indiquant leur population, leur superficie, leur code postal ainsi que leur département et leur région entre autre. Ce dernier nous permet d'affiner nos requête, d'en proposer des plus complexes mais aussi de pouvoir faire des regroupements et des classements par région et par département. Nous allons ainsi pouvoir faire des requêtes sur le classement (en étoile) de ces hébergements par département et région. Nous pourrons aussi regarder par commune, le nombre d'hôtels par habitant ou bien même faire une comparaison du nombre d'hébergement par région en fonction de l'année. \\
 
 		\vspace{0.5cm}
 		
+	\section{Constellation de faits}
+
+		\vspace{0.5cm}
+			
+		Après avoir choisis nos jeux de données, nous avons distinguer deux tables de faits : une propre aux hébergements avec des information sur leur capacité d'accueil et leur classement par exemple. Et une seconde propre aux communes, avec leur population, leur superficie et leur location (département, région). Pour pouvoir faire des requêtes intéressantes et donc pour pouvoir joindre nos deux tables de faits, nous utilisons l'identifiant de l'établissement (de l'hébergement) qui est présent dans les deux tables de faits. Cela nous permet ainsi d'accéder au caractéristiques propre à l'hébergement ainsi que celles propres à la commune de cette hébergement. Pour des raisons pratiques nous avons également choisis de faire une vue précise sur la location. Celle-ci nous affiche pour chaque commune, son code postale, son code INSEE, son département et sa région. Cette vue simplifiera nos requêtes complexes, d'autant que nous l'utiliserons fréquemment. ( ?? d'où le fait de l’indexer ?? )) \\
+	
+		\vspace{0.5cm}
 		
+		\begin{figure}[!h]
+				
+			\centerline{\includegraphics[height=8cm]{picture/constellation_de_fait.png}}
+			\caption{La constellation de fait qui structure notre entrepôt de données}
+			\label{constellation}
+			
+		\end{figure}	
 		
-		
-		
+		\vspace{0.5cm}
 				
 	\section{Intégration avec Talend}
 
