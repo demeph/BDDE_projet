@@ -63,7 +63,7 @@ Create table lesCommunes (
 
 create table tabledefait2 (
   	idEtablissement integer,
-  	codeInsee integer,
+  	codeInsee varchar(5),
   	region varchar2(50),
   	population float,
   	superficie float,
