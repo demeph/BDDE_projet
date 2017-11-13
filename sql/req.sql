@@ -47,7 +47,7 @@ GROUP BY f.categorie, at.commune
 -- Pour chaque département le classement des établissements par type de séjour
 SELECT f2.departement, f.typologie, avg(f.classement),
 	dense_rank() over (PARTITION BY etab.typeSejour ORDER BY avg(f.classement) DESC) rank	
-FROM tableDeFait f, ETABLISSEMENT etab,tabledefait2 f2
+FROM tableDeFait f, ETABLISSEMENT etab, tabledefait2 f2
 WHERE etab.IDETABLISSEMENT = f.IDETABLISSEMENT AND f2.IDETABLISSEMENT = f.IDETABLISSEMENT
 GROUP BY f2.departement, f.typologie,f.CLASSEMENT,etab.typesejour;
 
@@ -82,5 +82,6 @@ FROM densite;
 -- Requete 10
 -- Classement des regions ayant les hôtels qui ont la plus grande capacité d'accueil
 SELECT s.region, s.sum
-FROM sommme s
+FROM sommme s? tabledefait2 f2
+WHERE s.region = f2.region
 ORDER BY sum
