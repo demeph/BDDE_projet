@@ -47,8 +47,8 @@ Create table tableDeFait(
 
 
 Create table lesCommunes (
-	codeInsee integer,
-	codePostale integer,
+	codeInsee varchar2(5),
+	codePostale varchar(5),
 	commune varchar2(50),
 	altitude float,
 	statut varchar2(35),
