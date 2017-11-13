@@ -4,10 +4,6 @@
 \usepackage[french]{babel}
 \usepackage[utf8]{inputenc}
 
-% Customization des listes
-\usepackage{enumitem}
-\usepackage{pifont}
-
 % Insertion d'image
 \usepackage{graphicx}
 
@@ -21,10 +17,6 @@
 \titleformat{\paragraph}
   {\normalfont\bfseries\sffamily}{\theparagraph.}{0.33em}{}
  
- % tableau rectangle 
-%\usepackage{slashbox}
-%\usepackage{tabularx}
-
  % En-tête
 \usepackage{fancyhdr}
 \pagestyle{fancy}
@@ -34,7 +26,7 @@
 
 % Permet de mettre du texte au dessus du titre
 \usepackage{titling}
-\renewcommand{\maketitlehooka}{\noindent COUILLEROT Carol \hfill  \hfill \\ MAHIER Loïc \hfill \\ PHALAVANDISHVILI  Demetre}
+\renewcommand{\maketitlehooka}{\noindent COUILLEROT Carol \hfill \\ MAHIER Loïc \hfill \\ PHALAVANDISHVILI  Demetre}
 
 % Titre
 \title{\vspace{\fill}\LARGE\bfseries\sffamily Rapport de projet\protect\footnote{rapport réalisé sous \LaTeX} \vspace{\fill}}
@@ -59,20 +51,21 @@
 		
 		L'objectif de ce projet est de réaliser un entrepôt de données (OLAP) ainsi que des requêtes intéressantes sur un ou plusieurs jeu de données libres (open data). Pour ce faire nous avons choisis deux jeux de données : un sur les hébergements collectifs en France et l'autre sur les communes. Nous avons également choisis de réaliser ce projet en PL/SQL ainsi que d'utiliser Talend pour nettoyer nos données et concevoir nos tables relationnelles. \\
 
-
 	\section{Choix des données}				
 
 		\vspace{0.5cm}
 		
-		 Nous avons trouver nos données sur le site ''opendatasoft'', elles sont aussi présente sur le site ''data.gouv''. Le premier jeu de données est sur les hébergements collectifs en France : c'est à dire les hôtels, les campings et les résidences avec des informations sur leur location, leur classement (étoile) et leur capacité d'accueil notamment. Le deuxième jeu de donnée recueil toutes les communes de France, en indiquant leur population, leur superficie, leur code postal ainsi que leur département et leur région entre autre. Ce dernier nous permet d'affiner nos requête, d'en proposer des plus complexes mais aussi de pouvoir faire des regroupements et des classements par région et par département. Nous allons ainsi pouvoir faire des requêtes sur le classement (en étoile) de ces hébergements par département et région. Nous pourrons aussi regarder par commune, le nombre d'hôtels par habitant ou bien même faire une comparaison du nombre d'hébergement par région en fonction de l'année. \\
+		 Nous avons trouver nos données sur le site ''opendatasoft'', elles sont également présente sur le site ''data.gouv''. Le premier jeu de données est sur les hébergements collectifs en France : c'est à dire les hôtels, les campings et les résidences avec des informations sur leur location, leur classement (nombre d'étoile) et leur capacité d'accueil notamment. Le deuxième jeu de donnée recueil toutes les communes de France, en indiquant leur population, leur superficie, leur code postal ainsi que leur département et leur région entre autre. Ce dernier nous permet d'affiner nos requête, d'en proposer des plus complexes mais aussi de pouvoir faire des regroupements et des classements par région et par département. Nous allons ainsi pouvoir faire des requêtes sur le classement (nombre d'étoile) de ces hébergements par département et région. Nous pourrons aussi regarder par commune, le nombre d'hôtels par habitant ou bien même faire une comparaison du nombre d'hébergement par région en fonction de l'année. \\
 
 		\vspace{0.5cm}
 		
-	\section{Constellation de faits}
+	\section{Constellation de fait}
 
 		\vspace{0.5cm}
 			
-		Après avoir choisis nos jeux de données, nous avons distinguer deux tables de faits : une propre aux hébergements avec des information sur leur capacité d'accueil et leur classement par exemple. Et une seconde propre aux communes, avec leur population, leur superficie et leur location (département, région). Pour pouvoir faire des requêtes intéressantes et donc pour pouvoir joindre nos deux tables de faits, nous utilisons l'identifiant de l'établissement (de l'hébergement) qui est présent dans les deux tables de faits. Cela nous permet ainsi d'accéder au caractéristiques propre à l'hébergement ainsi que celles propres à la commune de cette hébergement. Pour des raisons pratiques nous avons également choisis de faire une vue précise sur la location. Celle-ci nous affiche pour chaque commune, son code postale, son code INSEE, son département et sa région. Le code INSEE est essentiel puisqu'il est unique, en effet ils se trouve que plusieurs communes ont le même code postale. Cette vue simplifiera nos requêtes complexes, d'autant que nous l'utiliserons fréquemment. ( ?? d'où le fait de l’indexer ?? )) \\
+		Après avoir choisis nos jeux de données, nous avons décidé de distinguer deux tables de faits : une propre aux hébergements avec des informations sur leur capacité d'accueil et leur classement par exemple. Et une seconde propre aux communes, avec leur population, leur superficie et leur location (département, région). Quatre dimensions s'y ajoutent : une pour les date, une pour les adresses des hébergement, une pour les informations complémentaires des hébergements et enfin une relative aux communes avec un certain nombre de leur caractéristiques. Pour pouvoir faire des requêtes intéressantes et donc pour pouvoir joindre nos deux tables de faits, nous utilisons l'identifiant de l'hébergement qui est présent dans les deux tables de faits. Cela nous permet ainsi d'accéder aux caractéristiques propres à l'hébergement ainsi que celles propres à la commune de cette hébergement. \\
+		
+		Pour des raisons pratiques nous avons également choisis de faire une vue précise sur la location. Celle-ci nous affiche pour chaque commune, son code postale, son code INSEE, son département et sa région. Le code INSEE est essentiel puisqu'il est unique, en effet ils se trouve que plusieurs communes ont le même code postale. Cette vue simplifiera nos requêtes complexes, d'autant que nous l'utiliserons fréquemment. \\
 	
 		\vspace{0.5cm}
 		
@@ -90,32 +83,30 @@
 
 		\vspace{0.5cm}
 		
+		Après avoir défini notre constellation de fait, notre prochaine objectif était de commencer à integrer nos jeux de données. Pour cela nous avons utiliser le logiciel Talend permettant de transformer nos données brut vers les tables relationnelles de la base de données Oracle. Pour réaliser cette transformation nous avons eu plusieurs étapes intermédiaires. La première étape consistait à lire le fichier au format .csv et à le décomposer en plusieurs tables conforme au schéma de fait définit dans la partie précédente. Pour cette décomposition nous avons utilisé à plusieurs reprises la fonction interne du logiciel Talend tMap. \\
 		
+    		\indent Le premier point important de l’utilisation de Talend était la création de la table laDate. Dans notre premier jeu de données nous avons deux attributs date (datePublication et dateClassement). En utilisant les fonctions tUnite et tUniqRow de Talend, nous obtenons des dates uniques qu’on met dans le table laDate en ajoutant les attributs calculés année, mois et jour. \\
+    		
+    		\indent Le deuxième point important de l’utilisation de Talend est la création de la table lesCommunes, pour laquelle nous avons besoin d’utiliser les deux jeux de données pour faire l’intersection des codes postaux. Pour cela nous avons utiliser tUniqrow afin d'obtenir des communes uniques à partir du premier jeu de donnése, puis nous avons fait l’intersection avec le deuxième jeu de données en utilisant tMap. \\
+    		
+    		\indent Le troisième point important de l’utilisation de Talend est l’intégration des données nettoyées avec tMap dans la base de données Oracle. Pour cela nous avons utiliser la fonction tOracleOutput permettant d'insérer ou de modifier les données à partir des tables définies dans tMap. Une fois configuré l’accès à la base de données, on précise les noms des tables (initialement vide) dans la base de donnée et enfin on obtient la base de données remplie des informations. \\		
 		
-		
-		
-		
+		\vspace{0.5cm}
 			
 	\section{Requêtes d'analyses}
 
 		\vspace{0.5cm}
 		
+		Une fois nos données sur Oracle, nous avons réalisé une dizaine de requête d'analyse en PL/SQL. Nous avons d'abord fait quelques requêtes sur la première table de fait, puis sur la deuxième avant d'en concevoir des plus complexes englobant les deux tables. Pour ces requêtes nous avons essayé de réutiliser un grand nombre d'extension de SQL tels que ROLLUP, CUBE et GROUPING SET notamment. \\		
 		
+		... \\
 		
-		
-		
+		\vspace{0.5cm}
 																
 	\section{Conclusion}
 
 		\vspace{0.5cm}
 		
-		
-		
-		
-				
-
-		\newpage
-	
-	\section{Annexe}
-					
+		Ainsi, nous avons réussi à créer notre premier entrepôt de donnée. Nous avons également réussi à proposer des requêtes pertinantes, analysant bien nos données. Ce projet nous aura permis de nous familiariser davantage avec les extensions de SQL tels que ROLLUP et CUBE notamment. La partie la plus ardue aura finalement été l'intégration des données avec Talend qui est un logiciel assez difficile à prendre en main mais au final extrèmement pratique et puissant. 
+						
 \end{document}
