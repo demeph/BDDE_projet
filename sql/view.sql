@@ -11,20 +11,20 @@ group by  a.commune, a.codePostale, f2.departement,f2.region;
 -- Vue 2 :
 -- tableau des sommes
 create MATERIALIZED view somme
-as (select f2.region as Nom, sum(f.NBCHAMBRE )
+as (select f2.region as Nom, sum(f.NBCHAMBRE ) as laSomme
 from TABLEDEFAIT f, TABLEDEFAIT2 f2
 where f.IDETABLISSEMENT = f2.IDETABLISSEMENT
 group by f2.region
 union
-select f2.departement as Nom, sum(f.NBCHAMBRE)
+select f2.departement as Nom, sum(f.NBCHAMBRE) as laSomme
 from TABLEDEFAIT f, TABLEDEFAIT2 f2
 where f.IDETABLISSEMENT = f2.IDETABLISSEMENT
 group by f2.departement
 union 
-select a.commune as Nom, sum(f.NBCHAMBRE)
+select a.commune as Nom, sum(f.NBCHAMBRE) as laSomme
 from TABLEDEFAIT f, adresse a 
 where f.idAdress =  a.idAdress
-group by a.commune;);
+group by a.commune);
 
 -- Vue 3 :
 -- tableau des moyennes
