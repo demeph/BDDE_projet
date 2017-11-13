@@ -75,9 +75,19 @@ FROM densite;
 
 
 -- Requête 9
---
+--1-
+-- Nombre d'etablissement par departement
+SELECT f2.departement, count(*) as total
+from tabledefait2 f2
+group by f2.DEPARTEMENT
+order by total;
 
-
+--2- 
+-- Nombre d'etablissement pour chaque different type de l'hebergement
+SELECT f1.typologie, count(*) as total
+from tabledefait f1
+group by f1.TYPOLOGIE
+order by total; 
 
 -- Requete 10
 -- Classement des regions ayant les hôtels qui ont la plus grande capacité d'accueil
