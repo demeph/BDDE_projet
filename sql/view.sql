@@ -8,7 +8,7 @@ GROUP BY  a.commune, a.codePostale, f2.departement,f2.region;
 
 
 -- Vue 2 :
--- tableau des sommes
+-- tableau des sommes des capacités d'accueil pour les hotels
 CREATE MATERIALIZED view somme
 AS (SELECT f2.region AS Nom, sum(f.NBCHAMBRE) AS sum
 FROM TABLEDEFAIT f, TABLEDEFAIT2 f2
@@ -26,14 +26,15 @@ WHERE f.idAdress =  a.idAdress
 GROUP BY a.commune;);
 
 -- Vue 3 :
--- tableau des moyennes
+-- tableau sur la moyenne des classements par catégorie d'hébergement
 CREATE MATERIALIZED VIEW Moyenne
 AS SELECT categorie, AVG(f.classement)
 FROM  tableDeFait f 
 GROUP BY categorie;
 
 -- Vue 4
+-- tableau du nomvre d'habitant par superficie pour chaque commune
 CREATE materialized view densite
-asselect f2.codeINSEE, f2.population,f.superficie,(f2.population*1000/f2.superficie*10) AS rapport
+AS SELECT f2.codeINSEE, f2.population,f.superficie,(f2.population*1000/f2.superficie*10) AS rapport
 FROM tabledefait2 f2
 GROUP BY f2.codeINsee,f2.population,f2.superficie;
