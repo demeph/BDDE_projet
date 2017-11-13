@@ -1,4 +1,4 @@
--- Vue 1 :
+-- Vue 1
 -- jointure sur les locations -> code postal, commune, departement, region
 CREATE MATERIALIZED VIEW detailLocation
 AS SELECT f2.codeInsee,a.commune, a.codePostale, f2.departement,f2.region
@@ -7,7 +7,7 @@ WHERE a.codePostale = lc.codePostale AND f2.CODEINSEE = lc.codeInsee
 GROUP BY  a.commune, a.codePostale, f2.departement,f2.region;
 
 
--- Vue 2 :
+-- Vue 2
 -- tableau des sommes des capacités d'accueil pour les hotels
 CREATE MATERIALIZED view somme
 AS (SELECT f2.region AS Nom, sum(f.NBCHAMBRE) AS sum
@@ -26,7 +26,7 @@ WHERE f.idAdress =  a.idAdress
 GROUP BY a.commune;);
 
 
--- Vue 3 :
+-- Vue 3
 -- tableau sur la moyenne des classements par catégorie d'hébergement
 CREATE MATERIALIZED VIEW Moyenne
 AS SELECT categorie, AVG(f.classement)
