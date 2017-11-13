@@ -33,7 +33,7 @@ FROM  tableDeFait f
 GROUP BY categorie;
 
 -- Vue 4
--- tableau du nomvre d'habitant par superficie pour chaque commune
+-- tableau du nombre d'habitant par superficie pour chaque commune
 CREATE materialized view densite
 AS SELECT f2.codeINSEE, f2.population,f.superficie,(f2.population*1000/f2.superficie*10) AS rapport
 FROM tabledefait2 f2
