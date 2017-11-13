@@ -48,7 +48,7 @@ GROUP BY f.categorie, at.commune
 SELECT f2.departement, f.typologie, avg(f.classement),
 	dense_rank() over (PARTITION BY etab.typeSejour ORDER BY avg(f.classement) desc) rank	
 FROM tableDeFait f, ETABLISSEMENT etab,tabledefait2 f2
-where etab.IDETABLISSEMENT = f.IDETABLISSEMENT and f2.IDETABLISSEMENT = f.IDETABLISSEMENT
+WHERE etab.IDETABLISSEMENT = f.IDETABLISSEMENT and f2.IDETABLISSEMENT = f.IDETABLISSEMENT
 GROUP BY f2.departement, f.typologie,f.CLASSEMENT,etab.typesejour;
 
 
@@ -65,7 +65,7 @@ GROUP BY lc.commune, f.typologie,f.population;
 SELECT ld.annee, sum(f.nbChambre), sum(sum(f.nbChambre)) over (order by ld.annee rows unbounded preceding)
 FROM tableDeFait f, laDate ld
 WHERE f.dateClassement = ld.idDate
-group by ld.annee;
+GROUP BY ld.annee;
 
 
 -- Requete 8
