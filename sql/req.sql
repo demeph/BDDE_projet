@@ -1,5 +1,5 @@
 -- Requete 1
---- Moyenne du nombre d'étoile par an et par type d'établissement,
+-- Moyenne du nombre d'étoile par an et par type d'établissement,
 -- par an, par type, moyenne générale
 SELECT dt.annee, f.typologie, avg(f.classement),
 	grouping(dt.annee) as annee,
@@ -9,7 +9,7 @@ WHERE dt.idDate  = f.dateClassement
 GROUP BY CUBE (dt.annee, f.typologie);
 
 
---Requete 2
+-- Requete 2
 -- Moyenne du nombre d'étoile par an, par type d'établissement
 SELECT dt.annee, f.typologie, avg(f.classement),grouping_id(dt.annee,f.typologie) as GRP
 FROM laDate dt, tableDeFait f
@@ -49,7 +49,7 @@ GROUP BY f.categorie, at.commune
 
 -- Requete 5
 -- Pour chaque département le classement des établissements par type de séjour
---fonctionne
+-- fonctionne
 SELECT f2.departement, f.typologie, avg(f.classement),
 	dense_rank() over (PARTITION BY etab.typeSejour ORDER BY avg(f.classement) desc) rank	
 FROM tableDeFait f, ETABLISSEMENT etab,tabledefait2 f2
@@ -59,7 +59,7 @@ GROUP BY f2.departement, f.typologie,f.CLASSEMENT,etab.typesejour;
 
 -- Requete 6
 -- Nombre d'hôtels par habitants
---modifie et fonctionne
+-- modifie et fonctionne
 SELECT lc.commune, (count(f.typologie) / f.population)
 FROM tableDeFait2 f, DETAILLOCATION lc
 WHERE f.codeInsee = lc.codeInsee and f.typologie = 'HÔTEL' and f.population != 0
@@ -75,5 +75,13 @@ WHERE f.dateClassement = ld.idDate
 group by ld.annee;
 
 
---Requete 8
-select avg(rapport) from densite;
+-- Requete 8
+--
+SELECT avg(rapport) 
+FROM densite;
+
+-- Requete 10
+-- Classement des regions ayant les hôtels qui ont la plus grande capacité d'accueil
+SELECT s.region, s.sum
+FROM sommme s
+ORDER BY sum
