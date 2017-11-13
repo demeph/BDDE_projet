@@ -9,25 +9,6 @@ GROUP BY  a.commune, a.codePostale, f2.departement,f2.region;
 
 -- Vue 2
 -- tableau des sommes des capacités d'accueil pour les hotels
-CREATE MATERIALIZED view somme
-AS (SELECT f2.region AS Nom, sum(f.NBCHAMBRE) AS sum
-FROM TABLEDEFAIT f, TABLEDEFAIT2 f2
-WHERE f.IDETABLISSEMENT = f2.IDETABLISSEMENT
-GROUP BY f2.region
-UNION
-SELECT f2.departement AS Nom, sum(f.NBCHAMBRE) AS sum
-FROM TABLEDEFAIT f, TABLEDEFAIT2 f2
-WHERE f.IDETABLISSEMENT = f2.IDETABLISSEMENT
-GROUP BY f2.departement
-UNION 
-SELECT a.commune AS Nom, sum(f.NBCHAMBRE) AS sum
-FROM TABLEDEFAIT f, adresse a 
-WHERE f.idAdress =  a.idAdress
-GROUP BY a.commune;);
-
-<<<<<<< HEAD
--- Vue 2 :
--- tableau des sommes
 create MATERIALIZED view somme
 as (select f2.region as Nom, sum(f.NBCHAMBRE ) as laSomme
 from TABLEDEFAIT f, TABLEDEFAIT2 f2
@@ -43,8 +24,7 @@ select a.commune as Nom, sum(f.NBCHAMBRE) as laSomme
 from TABLEDEFAIT f, adresse a 
 where f.idAdress =  a.idAdress
 group by a.commune);
-=======
->>>>>>> 424d4754503763bfab3b4f63fd21dcd0befca936
+
 
 -- Vue 3
 -- tableau sur la moyenne des classements par catégorie d'hébergement
