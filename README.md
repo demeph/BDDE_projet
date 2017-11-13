@@ -7,7 +7,9 @@ Analyse des hébergements collectifs en France par catégorie, départements, cl
 
 - **[Data](https://github.com/loic44650/BDDE_projet/tree/master/data)** : contient des fichiers csv, que nous avons utilisé pour l'integration des donnés :
 
-  ​
+
+
+
 | Dataset                                  | Description                              |
 | ---------------------------------------- | ---------------------------------------- |
 | [Premiere Dataset](https://public.opendatasoft.com/explore/dataset/hebergements-classes/information/) | La liste des hebergement collectifs de la France cad les hotels, les campings etc. |
