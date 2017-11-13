@@ -25,12 +25,14 @@ FROM TABLEDEFAIT f, adresse a
 WHERE f.idAdress =  a.idAdress
 GROUP BY a.commune;);
 
+
 -- Vue 3 :
 -- tableau sur la moyenne des classements par catégorie d'hébergement
 CREATE MATERIALIZED VIEW Moyenne
 AS SELECT categorie, AVG(f.classement)
 FROM  tableDeFait f 
 GROUP BY categorie;
+
 
 -- Vue 4
 -- tableau du nombre d'habitant par superficie pour chaque commune
