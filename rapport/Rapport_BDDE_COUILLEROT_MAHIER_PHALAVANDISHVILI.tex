@@ -101,7 +101,7 @@
 		
 		Pour ce faire, nous avons identifié différents acteurs qui pourraient être amené à utiliser ce jeu de données, par exemple les collectivités, un client lambda et un promoteur. Et c'est en nous mettant à leur place que l'on a essayé de faire le tour d'horizon des requêtes utiles : ainsi un client pourrait souhaiter savoir quel est le meilleur hôtel dans le département ou la région de ses vacance. De même un promoteur cherchant à bâtir un nouvelle établissement (hôtel, résidence, camping, ...) aimerait savoir quel département est en manque d'hébergement. Ainsi on peut imaginer différent type de requête, les unes tournées vers l'analyse ''touristique'' informant sur le classement, le meilleur service, la proximité et les autres tournées sur l'analyse de ''couverture'', informant ainsi davantage sur la quantité d'hébergement dans une zone, la capacité d'accueil des hôtels ans une ville , etc. \\
 		
-		Aussi, nous avons jugé utile de créer quelques vues, notamment une faisant la jointure entre les adresses de nos hébergements et la dimensions lesCommunes, se qui simplifie nos requêtes. Nous avons également fait des vues pour avoir sous la main toutes les sommes ou moyennes qui pourraient nous servir dans nos requête. Enfin nous avons choisis d'indexer quelque attribut souvent appelé à l'aide d'index bitmap. \\
+		Aussi, nous avons jugé utile de créer quelques vues, notamment une faisant la jointure entre les adresses de nos hébergements et la dimensions lesCommunes, ce qui simplifie nos requêtes. Nous avons également fait des vues pour avoir de pré-calculé toutes les sommes ou moyennes qui pourraient nous servir dans nos requête. Enfin nous avons choisi d'indexer quelque attribut souvent appelé à l'aide d'index bitmap. \\
 		
 		\vspace{0.5cm}
 																
@@ -109,6 +109,6 @@
 
 		\vspace{0.5cm}
 		
-		Ainsi, nous avons réussi à créer notre premier entrepôt de donnée. Nous avons également réussi à proposer des requêtes pertinentes, analysant bien nos données. Ce projet nous aura permis de nous familiariser davantage avec les extensions de SQL tels que ROLLUP et CUBE notamment. La partie la plus ardue aura finalement été l'intégration des données avec Talend qui est un logiciel assez difficile à prendre en main mais au final extrêmement pratique et puissant. L'intégration ayant été faites sur Talend, tout en sachant que l'on peut directement envoyer nos données sur Oracle depuis Talend, il serait donc assez facile aujourd'hui d'ajouter de nouveaux jeux de données à notre entrepôt. \\
+		Ainsi, nous avons réussi à créer notre premier entrepôt de donnée. Nous avons également réussi à proposer des requêtes pertinentes, analysant bien nos données. Ce projet nous aura permis de nous familiariser davantage avec les extensions de SQL tels que ROLLUP et CUBE notamment. La partie la plus ardue aura finalement été l'intégration des données avec Talend qui est un logiciel assez difficile à prendre en main mais au final extrêmement pratique et puissant. L'intégration ayant été faites sur Talend, tout en sachant que l'on peut directement envoyer nos données sur Oracle depuis Talend, il serait donc assez facile aujourd'hui d'ajouter de nouveaux jeux de données à notre entrepôt pour étendre notre champs d'analyse ou l'affiner encore davantage. \\
 						
 \end{document}
