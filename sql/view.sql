@@ -12,17 +12,17 @@ GROUP BY  a.commune, a.codePostale, f2.departement,f2.region;
 create MATERIALIZED view somme
 as (select f2.region as Nom, sum(f.NBCHAMBRE ) as laSomme
 from TABLEDEFAIT f, TABLEDEFAIT2 f2
-where f.IDETABLISSEMENT = f2.IDETABLISSEMENT
+where f.IDETABLISSEMENT = f2.IDETABLISSEMENT and f.typologie = 'HÔTEL'
 group by f2.region
 union
 select f2.departement as Nom, sum(f.NBCHAMBRE) as laSomme
 from TABLEDEFAIT f, TABLEDEFAIT2 f2
-where f.IDETABLISSEMENT = f2.IDETABLISSEMENT
+where f.IDETABLISSEMENT = f2.IDETABLISSEMENT and f.typologie = 'HÔTEL'
 group by f2.departement
 union 
 select a.commune as Nom, sum(f.NBCHAMBRE) as laSomme
 from TABLEDEFAIT f, adresse a 
-where f.idAdress =  a.idAdress
+where f.idAdress = a.idAdress and f.typologie = 'HÔTEL'
 group by a.commune);
 
 
@@ -37,6 +37,6 @@ GROUP BY categorie;
 -- Vue 4
 -- tableau du nombre d'habitant par superficie pour chaque commune
 CREATE materialized view densite
-AS SELECT f2.codeINSEE, f2.population,f.superficie,(f2.population*1000/f2.superficie*10) AS rapport
+AS SELECT f2.codeINSEE, f2.population,f2.superficie,(f2.population*1000/f2.superficie*10) AS rapport
 FROM tabledefait2 f2
 GROUP BY f2.codeINsee,f2.population,f2.superficie;
